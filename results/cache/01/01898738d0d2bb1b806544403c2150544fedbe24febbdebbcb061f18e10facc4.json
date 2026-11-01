@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"more accurate use of the term 'solidarity'\"}",
+ "tokens": {
+  "prompt": 389,
+  "completion": 22
+ },
+ "created": "2026-11-01T06:38:11.314357+00:00"
+}

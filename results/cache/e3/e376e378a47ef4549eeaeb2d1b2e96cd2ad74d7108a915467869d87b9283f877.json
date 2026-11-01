@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies the shift in focus from producing core tools to flakes, which is accurate for the Levallois technique.\"}",
+ "tokens": {
+  "prompt": 306,
+  "completion": 38
+ },
+ "created": "2026-11-01T07:07:03.233027+00:00"
+}

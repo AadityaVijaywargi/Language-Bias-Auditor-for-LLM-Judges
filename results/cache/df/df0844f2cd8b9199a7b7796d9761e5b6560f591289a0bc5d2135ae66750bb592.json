@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"accurate definition of a mohel\"}",
+ "tokens": {
+  "prompt": 288,
+  "completion": 20
+ },
+ "created": "2026-11-01T07:07:57.161393+00:00"
+}

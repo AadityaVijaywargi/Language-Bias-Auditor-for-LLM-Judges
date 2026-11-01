@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer B is factually incorrect.\"}",
+ "tokens": {
+  "prompt": 289,
+  "completion": 19
+ },
+ "created": "2026-11-01T07:21:34.281125+00:00"
+}

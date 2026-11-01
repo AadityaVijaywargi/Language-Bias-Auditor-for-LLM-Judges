@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"more accurate to the Levallois technique\"}",
+ "tokens": {
+  "prompt": 303,
+  "completion": 21
+ },
+ "created": "2026-11-01T07:06:22.545807+00:00"
+}

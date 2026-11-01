@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies three or more major powers as the definition of a multipolar system.\"}",
+ "tokens": {
+  "prompt": 272,
+  "completion": 30
+ },
+ "created": "2026-11-01T07:12:15.149931+00:00"
+}

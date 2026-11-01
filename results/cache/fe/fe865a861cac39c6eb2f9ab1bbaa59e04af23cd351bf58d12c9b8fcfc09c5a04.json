@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies the probability and the reasoning behind it for autosomal recessive disorders.\"}",
+ "tokens": {
+  "prompt": 292,
+  "completion": 30
+ },
+ "created": "2026-11-01T07:36:10.894253+00:00"
+}

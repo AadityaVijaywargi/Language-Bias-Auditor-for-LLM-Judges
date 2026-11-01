@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies the Levallois technique focus on producing flakes from a core tool, while Answer B describes a different technological shift.\"}",
+ "tokens": {
+  "prompt": 303,
+  "completion": 40
+ },
+ "created": "2026-11-01T07:06:36.528031+00:00"
+}

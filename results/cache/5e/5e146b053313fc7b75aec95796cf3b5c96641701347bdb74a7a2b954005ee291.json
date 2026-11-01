@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"more aligned with Maslow's theory\"}",
+ "tokens": {
+  "prompt": 287,
+  "completion": 19
+ },
+ "created": "2026-11-01T07:16:30.285156+00:00"
+}

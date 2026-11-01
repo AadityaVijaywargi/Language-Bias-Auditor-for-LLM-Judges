@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 4, \"completeness\": 4, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"Well-structured and accurate, but could include more details on moksha in other yugas.\"}",
+ "tokens": {
+  "prompt": 413,
+  "completion": 55
+ },
+ "created": "2026-11-01T05:45:42.723332+00:00"
+}
