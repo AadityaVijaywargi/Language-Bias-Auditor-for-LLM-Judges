@@ -4,7 +4,7 @@ Do LLM judges score the same answer differently when it is written in English, H
 Romanized Hindi or Hinglish? This repo measures the gap (E1 pointwise, E2/E3 pairwise), checks judges
 against Hindi-speaking humans (E4), and tests prompt-level fixes (E5). Course project UE24AM343AB5.
 
-**Status (2026-10-30).** 150 quadruples (100 factual, 50 open-ended) and 60 wrong twins, drafted by Claude and all verified by a Hindi speaker. **Main study:** baseline E1-E3 complete for qwen2.5-7b-local and gpt-oss-120b; `make stats` writes both judges' tables to `results/tables/main_baseline.md`. **Section B** (post hoc criterion leakage and comment coding): `make stats-b`; the 200-comment two-rater check is still to be labelled. **Gap A** (wrong twins scored pointwise, pre-registered in `analysis/plan.md`): done for both judges (480 calls); `make stats-a` writes `results/tables/main_baseline_a.md`. **E5** (mitigations on a 60-item subset): bias-aware done for both judges (920 calls each) and majority vote done, `make stats-e5` writes `results/tables/main_e5.md`; translate-then-judge done for gpt-oss-120b (1,100 calls), Qwen still to run; the Hindi rubric not run yet. **Results so far:** `analysis/results_summary.md` (draft). **Re-audit package:** `make package`. **Pilot:** gpt-oss-120b and gemini-flash done (`make reproduce-pilot` writes `pilot_report.md`). **Reproduce:** `make reproduce` reruns every main-study call from the cache and rebuilds all tables. **E4** (human grading, 100 items in four forms, at least two annotators): blind sheets in `data/e4/` (`make e4-sheets`), guideline `data/e4/guideline.md`, `make e4-import ARGS=<sheet>` merges a graded sheet into `data/human_grades.csv`, `make stats-e4` writes `results/tables/main_baseline_e4.md`; no grades yet. Items enter analysis only after human verification via the QC sheet.
+**Status (2026-11-01, Qwen translate-then-judge analysed).** 150 quadruples (100 factual, 50 open-ended) and 60 wrong twins, drafted by Claude and all verified by a Hindi speaker. **Main study:** baseline E1-E3 complete for qwen2.5-7b-local and gpt-oss-120b; `make stats` writes both judges' tables to `results/tables/main_baseline.md`. **Section B** (post hoc criterion leakage and comment coding): `make stats-b`; the 200-comment two-rater check is still to be labelled. **Gap A** (wrong twins scored pointwise, pre-registered in `analysis/plan.md`): done for both judges (480 calls); `make stats-a` writes `results/tables/main_baseline_a.md`. **E5** (mitigations on a 60-item subset): bias-aware done for both judges (920 calls each) and majority vote done, `make stats-e5` writes `results/tables/main_e5.md`; translate-then-judge done for both judges (180 shared translations and 920 planned judgments per judge; Qwen has 9 final unparsed E3 judgments); the Hindi rubric not run yet. **Results so far:** `analysis/results_summary.md` (draft). **Paper draft and source audit:** `report/draft.md`, `report/citation_audit.md`; `python report/verify_snapshot.py` checks source hashes, raw Qwen metrics and deterministic E5 table reproduction without provider calls. **Re-audit package:** `make package`. **Pilot:** gpt-oss-120b and gemini-flash done (`make reproduce-pilot` writes `pilot_report.md`). **Reproduce:** `make reproduce` reruns every main-study call from the cache and rebuilds all tables. **E4** (human grading, 100 items in four forms, at least two annotators): blind sheets in `data/e4/` (`make e4-sheets`), guideline `data/e4/guideline.md`, `make e4-import ARGS=<sheet>` merges a graded sheet into `data/human_grades.csv`, `make stats-e4` writes `results/tables/main_baseline_e4.md`; no grades yet. `make stats-e5` adds the human-agreement accuracy cost once two graders overlap. Items enter analysis only after human verification via the QC sheet.
 
 ## Setup
 
@@ -53,7 +53,7 @@ From `python -m lb.budget` with the current config (3 enabled judges for E1-E3; 
 | E5(b) translations | 180 |
 | **Total** | **12,120** |
 
-Made so far: E1-E3 and gap A for qwen2.5-7b-local and gpt-oss-120b; E5 bias-aware for both judges. gemini-flash is in the
+Made so far: E1-E3 and gap A for qwen2.5-7b-local and gpt-oss-120b; E5 bias-aware and translate-then-judge for both judges. gemini-flash is in the
 E1-E3 lists but has only pilot calls (20 per key per day), so its main-study calls are not made. With 4 judges
 (brief section 6) E1-E3 are 2,400 / 3,600 / 1,440 + 480. The Phase 0 pilot (20 items, E1 + E2, 2 judges) is
 **400 calls**. Parse retries add up to 2 calls per unparseable response. Every runner prints its exact
@@ -84,7 +84,7 @@ results/   raw/ (one line per call), cache/, tables/   tests/  schema, parsing, 
 
 - All non-English texts are machine-drafted (claude-opus-5-5) and then human-verified; residual
   translation artefacts are possible, and the drafter's style may differ from naturally written Hindi.
-- Small judge panel (3-4 free-tier or local models) and a small human-graded subset (about 100 items).
+- Two completed main-study judges; Gemini is pilot-only. Human grading of the 100-item subset is pending.
 - Pilot items: 15 factual MMMLU questions and 5 MT-Bench prompts; not representative of the final 150.
 - Model ids for free tiers change; confirm `configs/judges.yaml` before each run and record the date.
 - The Hindi rubric (E5a) is drafted by Claude and must be verified before use.

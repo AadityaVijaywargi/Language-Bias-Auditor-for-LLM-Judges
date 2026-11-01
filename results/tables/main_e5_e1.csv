@@ -1,4 +1,16 @@
 variant,judge,vs_baseline_of,form,measure,n,base,new,change,ci_low,ci_high,exploratory
+translate_then_judge,gpt-oss-120b,gpt-oss-120b,hi,content gap vs en (signed),60,0.0222,-0.0111,-0.0333,-0.15,0.05,False
+translate_then_judge,gpt-oss-120b,gpt-oss-120b,hi,content gap vs en (absolute),60,0.1333,0.0778,-0.0556,-0.1611,0.0167,False
+translate_then_judge,gpt-oss-120b,gpt-oss-120b,hi_rom,content gap vs en (signed),60,-0.1444,-0.2,-0.0556,-0.2667,0.1333,False
+translate_then_judge,gpt-oss-120b,gpt-oss-120b,hi_rom,content gap vs en (absolute),60,0.2111,0.3333,0.1222,-0.0556,0.3333,False
+translate_then_judge,gpt-oss-120b,gpt-oss-120b,hinglish,content gap vs en (signed),60,-0.15,-0.0611,0.0889,0.0056,0.1722,False
+translate_then_judge,gpt-oss-120b,gpt-oss-120b,hinglish,content gap vs en (absolute),60,0.1722,0.1389,-0.0333,-0.1111,0.0444,False
+translate_then_judge,qwen2.5-7b-local,qwen2.5-7b-local,hi,content gap vs en (signed),60,0.1,-0.1611,-0.2611,-0.4333,-0.0778,False
+translate_then_judge,qwen2.5-7b-local,qwen2.5-7b-local,hi,content gap vs en (absolute),60,0.4222,0.3167,-0.1056,-0.2778,0.0556,False
+translate_then_judge,qwen2.5-7b-local,qwen2.5-7b-local,hi_rom,content gap vs en (signed),60,-0.0667,-0.4444,-0.3778,-0.65,-0.0944,False
+translate_then_judge,qwen2.5-7b-local,qwen2.5-7b-local,hi_rom,content gap vs en (absolute),60,0.5222,0.4778,-0.0444,-0.2779,0.2,False
+translate_then_judge,qwen2.5-7b-local,qwen2.5-7b-local,hinglish,content gap vs en (signed),60,-0.1889,-0.0944,0.0944,-0.0944,0.2889,False
+translate_then_judge,qwen2.5-7b-local,qwen2.5-7b-local,hinglish,content gap vs en (absolute),60,0.5333,0.1833,-0.35,-0.5111,-0.2,False
 bias_aware,gpt-oss-120b,gpt-oss-120b,hi,content gap vs en (signed),60,0.0222,0.0167,-0.0056,-0.0667,0.05,False
 bias_aware,gpt-oss-120b,gpt-oss-120b,hi,content gap vs en (absolute),60,0.1333,0.0833,-0.05,-0.0944,-0.0111,False
 bias_aware,gpt-oss-120b,gpt-oss-120b,hi_rom,content gap vs en (signed),60,-0.1444,-0.0333,0.1111,0.0333,0.2,False

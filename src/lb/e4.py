@@ -265,12 +265,13 @@ def inter_annotator(by_annotator: dict, sample) -> list[dict]:
 
 
 def judge_human_pairs(judge_scores: dict, mean: dict, sample, form: str, key: str) -> list[tuple[str, float, float]]:
-    """[(item_id, judge, human)] for cells with both; criteria compare against the rounded human mean."""
+    """[(item_id, judge, human)] for cells with both; criteria are rounded half up on both sides (a majority
+    vote's judge score can be x.5, a single judge's is already whole)."""
     out = []
     for q in sample:
         j, h = judge_scores.get(q.item_id, {}).get(form), mean.get((q.item_id, form))
         if j is not None and h is not None:
-            out.append((q.item_id, j[key], h[key] if key == "content" else round_half_up(h[key])))
+            out.append((q.item_id, *((v[key] if key == "content" else round_half_up(v[key])) for v in (j, h))))
     return out
 
 

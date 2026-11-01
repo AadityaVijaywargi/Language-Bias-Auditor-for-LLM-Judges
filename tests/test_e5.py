@@ -128,3 +128,54 @@ def test_variant_change_and_majority_vote(tmp_path):
     control = [r for r in out["e3"] if r["variant"] == mitigation.MAJORITY and r["form"] == "en"]
     assert all(r["base"] == 1 and r["new"] == 1 and r["n"] == len(twins) for r in control)
     assert (tmp_path / "tables" / "main_e5.md").exists()
+
+
+def test_ties_criteria_and_human_agreement_accuracy_cost(tmp_path):
+    s = subset()
+    quality = {q.item_id: 2 + k % 4 for k, q in enumerate(s)}                    # 2-5, varies across items
+    recs = []
+    for q in s:
+        q_score = quality[q.item_id]
+        for f in ("en", "hi", "hi_rom", "hinglish"):
+            recs.append(rec("baseline", "e1", "j1", q.item_id, (f,), correctness=q_score, completeness=q_score,
+                            clarity=q_score, language_quality=5))
+            reversed_hinglish = 7 - q_score if f == "hinglish" else q_score      # agreement reversed in hinglish
+            recs.append(rec("bias_aware", "e1", "j1", q.item_id, (f,), correctness=reversed_hinglish,
+                            completeness=reversed_hinglish, clarity=reversed_hinglish, language_quality=5))
+        for order in ("AB", "BA"):
+            recs.append(rec("baseline", "e2", "j1", q.item_id, ("en", "hinglish"), order,
+                            winner="A" if order == "AB" else "B"))
+            recs.append(rec("bias_aware", "e2", "j1", q.item_id, ("en", "hinglish"), order, winner="tie"))
+    raw = tmp_path / "raw"
+    raw.mkdir()
+    (raw / "x.jsonl").write_text("".join(json.dumps(r) + "\n" for r in recs), encoding="utf-8")
+    grades = tmp_path / "grades.csv"
+    lines = ["annotator_id,item_id,form,correctness,completeness,clarity,language_quality,notes"]
+    lines += [f"{a},{q.item_id},{f},{quality[q.item_id]},{quality[q.item_id]},{quality[q.item_id]},5,"
+              for a in ("a1", "a2") for q in s for f in ("en", "hi", "hi_rom", "hinglish")]
+    grades.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    out = mitigation.run(raw_dir=raw, tables_dir=tmp_path / "tables", grades_path=grades)
+
+    tie = next(r for r in out["e2_ties"] if r["variant"] == "bias_aware" and r["pair"] == "en vs hinglish")
+    assert (tie["base"], tie["new"], tie["change"]) == (0, 1, 1)
+    crit = next(r for r in out["e1_criteria"] if r["variant"] == "bias_aware" and r["form"] == "hi"
+                and r["criterion"] == "language_quality")
+    assert crit["n"] == 60 and crit["change"] == 0
+    acc = {(r["form"], r["score"]): r for r in out["accuracy"] if r["variant"] == "bias_aware"}
+    assert acc[("hi", "content")]["change"] == pytest.approx(0)
+    assert acc[("hinglish", "content")]["new"] == pytest.approx(-1)
+    assert acc[("hinglish", "content")]["change"] == pytest.approx(-2)
+    assert "Accuracy cost" in (tmp_path / "tables" / "main_e5.md").read_text(encoding="utf-8")
+
+
+def test_no_grades_leaves_the_accuracy_table_empty(tmp_path):
+    s = subset()
+    recs = [rec("baseline", "e1", "j1", q.item_id, (f,), correctness=5, completeness=5, clarity=5, language_quality=5)
+            for q in s for f in ("en", "hi", "hi_rom", "hinglish")]
+    recs += [rec("bias_aware", "e1", "j1", r["item_id"], r["forms"], **r["parsed"]) for r in recs]
+    raw = tmp_path / "raw"
+    raw.mkdir()
+    (raw / "x.jsonl").write_text("".join(json.dumps(r) + "\n" for r in recs), encoding="utf-8")
+    out = mitigation.run(raw_dir=raw, tables_dir=tmp_path / "tables", grades_path=tmp_path / "none.csv")
+    assert out["accuracy"] == []
+    assert "Waits for human grades" in (tmp_path / "tables" / "main_e5.md").read_text(encoding="utf-8")

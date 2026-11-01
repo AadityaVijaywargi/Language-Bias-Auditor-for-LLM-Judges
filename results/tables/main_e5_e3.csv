@@ -1,4 +1,12 @@
 variant,judge,vs_baseline_of,form,measure,n,base,new,change,ci_low,ci_high,exploratory
+translate_then_judge,gpt-oss-120b,gpt-oss-120b,hi,consistent wrong-English rate,40,0.0,0.0,0.0,0.0,0.0,False
+translate_then_judge,gpt-oss-120b,gpt-oss-120b,hi_rom,consistent wrong-English rate,40,0.0,0.0,0.0,0.0,0.0,False
+translate_then_judge,gpt-oss-120b,gpt-oss-120b,hinglish,consistent wrong-English rate,40,0.0,0.0,0.0,0.0,0.0,False
+translate_then_judge,gpt-oss-120b,gpt-oss-120b,en,control accuracy (correct en preferred),40,1.0,1.0,0.0,0.0,0.0,False
+translate_then_judge,qwen2.5-7b-local,qwen2.5-7b-local,hi,consistent wrong-English rate,36,0.1111,0.0278,-0.0833,-0.1667,0.0,False
+translate_then_judge,qwen2.5-7b-local,qwen2.5-7b-local,hi_rom,consistent wrong-English rate,36,0.1389,0.0278,-0.1111,-0.2222,-0.0278,False
+translate_then_judge,qwen2.5-7b-local,qwen2.5-7b-local,hinglish,consistent wrong-English rate,36,0.1389,0.0278,-0.1111,-0.2222,-0.0278,False
+translate_then_judge,qwen2.5-7b-local,qwen2.5-7b-local,en,control accuracy (correct en preferred),39,0.8718,0.8718,0.0,0.0,0.0,False
 bias_aware,gpt-oss-120b,gpt-oss-120b,hi,consistent wrong-English rate,40,0.0,0.0,0.0,0.0,0.0,False
 bias_aware,gpt-oss-120b,gpt-oss-120b,hi_rom,consistent wrong-English rate,40,0.0,0.0,0.0,0.0,0.0,False
 bias_aware,gpt-oss-120b,gpt-oss-120b,hinglish,consistent wrong-English rate,40,0.0,0.0,0.0,0.0,0.0,False

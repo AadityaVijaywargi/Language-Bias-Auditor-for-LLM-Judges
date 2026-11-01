@@ -113,6 +113,11 @@ Implementation details (fixed 2026-10-27, before any E5 variant call; `lb.runner
   no verdict has more than half) across the judges with complete baseline results, compared against each
   of those judges' baselines. With two judges the median is the mean and any disagreement is a tie.
 - hindi_rubric runs only after a Hindi speaker verifies `pointwise_hi.txt` and `pairwise_hi.txt`.
+- Accuracy cost from E4 (fixed 2026-10-30, before any human grade): for each variant, judge and form on the E5
+  items, E4's five agreement measures against the mean human grade, variant minus baseline with a paired
+  bootstrap (`main_e5_accuracy.csv`). For majority_vote, x.5 criterion scores are rounded half up, as for humans.
+- Descriptive, post hoc (2026-10-30): per-criterion gaps (`main_e5_e1_criteria.csv`) and the E2 tie rate
+  (`main_e5_e2_ties.csv`), added so these reported numbers trace to a table.
 
 ## B: criterion leakage and judge comments (added 2026-10-26, post hoc; see change log)
 
@@ -237,3 +242,13 @@ matched (item, form) pairs from the baseline E1 run.
   (at least 2 annotators), the reading of "rounded scores" as the human mean rounded half up per criterion,
   and E4.4 (human form gap) were written here, and `lb.e4` built, before a single grade was entered. Timing:
   every judge result in E1-E3, B, A and E5 bias-aware had been seen; no human grade existed.
+- **2026-10-30, E5 tables extended.** The E4 accuracy cost above was written before any human grade existed.
+  The per-criterion gaps and E2 tie rate were added after the bias-aware and gpt-oss translate-then-judge results
+  had been seen, are descriptive, and change no planned measure. Translator errors in Romanized Hindi were found
+  by reading the largest drops after seeing the tables; the translator and its prompt were not changed.
+
+- **2026-11-01, Qwen translate-then-judge completed and analysed (no measure changed).** The fixed 60-item
+  subset and shared GPT-OSS translations were retained. All 920 planned judgments were recorded; 9 final
+  parse failures, all E3, remain missing. Tables pair baseline and variant on available items (E3: both orders
+  in both conditions). Reported English-control reuse is a cached comparison, not an independent replication.
+  Per-criterion and tie-rate summaries retain their descriptive status from the 2026-10-30 entry.
