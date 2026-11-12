@@ -21,3 +21,10 @@ The demo displays four answer versions, criterion scores, English relative gaps,
 ## Scope and expected value
 
 The solution helps identify language related evaluation differences and compare possible fixes. An individual score gap is a signal to investigate, not proof of bias or a universal fairness verdict. Human validation remains incomplete: no two rater consensus is available, and bulk assigned ratings are explicitly labelled. The Hindi rubric experiment and comment label validation are deferred. The current contribution is an inspectable audit of the tested models, dataset and prompts.
+
+
+## PDF preview
+
+[Download the one-page PDF](first-deliverable.pdf)
+
+![One-page document preview](first-deliverable-preview.png)
