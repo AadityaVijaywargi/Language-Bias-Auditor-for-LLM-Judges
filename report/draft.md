@@ -1,6 +1,17 @@
 # Language-Bias Auditing Across English, Devanagari Hindi, Romanized Hindi and Hinglish
 
-**Working paper draft — 1 November 2026, updated after the completed Qwen translation run.** Methods, related work and findings from completed experiments. Author names and affiliation are to be supplied by the team. This is an editable research draft, not a submission-ready IEEE layout. Numerical evidence is frozen to the CSV files recorded in [evidence_manifest.json](evidence_manifest.json). Rebuild report tables with `python report/refresh_tables.py` after regenerating E5 statistics; run `python report/verify_snapshot.py` to verify provenance and numerical reproduction without provider calls.
+**Current status (2026-11-12):** E4 uses 40 questions / 160 answers per grader.
+The saved grade file contains 192 a1 entries, including 84 bulk-assigned ratings whose
+notes explicitly state that individual review was not recorded. These are not independent
+human validation. There is no two-rater consensus result. See
+`data/e4/reduced40/bulk_rating_provenance.json` and the coverage tables.
+The Hindi-rubric arm and comment-label validation remain deferred.
+Use `data/e4/reduced40/sheet_a1.csv` and `sheet_a2.csv`; original row IDs are retained.
+Import sheets with `python -m lb.e4 import <path>` and rebuild with `python -m lb.e4`.
+The model mitigation analysis still uses its original 60-item subset.
+
+
+**Working paper draft — scope amended 9 November 2026; model results retain the completed 1 November Qwen translation run.** Methods, related work and findings from completed experiments. Author names and affiliation are to be supplied by the team. This is an editable research draft, not a submission-ready IEEE layout. Numerical evidence is frozen to the CSV files recorded in [evidence_manifest.json](evidence_manifest.json). Rebuild report tables with `python report/refresh_tables.py` after regenerating E5 statistics; run `python report/verify_snapshot.py` to verify provenance and numerical reproduction without provider calls.
 
 ## Abstract
 
@@ -54,7 +65,7 @@ Responses are requested as JSON, with up to two parsing retries. Each response a
 
 **Gap A: wrong-answer pointwise scores.** Each wrong twin receives the E1 rubric. False acceptance is pre-specified as correctness at least 3. We report acceptance by form, wrong-score differences from English, and the discrimination margin between each correct answer and its wrong twin. The English reference is visible, which may make detection easier.
 
-**E4: planned human reference.** Two or more Hindi-fluent annotators will each grade 100 items in all four forms. The sample contains the E5 subset and totals 67 factual and 33 open-ended items. Sheets hide item and form identifiers and shuffle answers into balanced blocks; language and repeated content remain observable. Annotators work independently using the same four criteria. Only cells graded by at least two annotators enter mean-human agreement analyses. No grades are available in this snapshot.
+**E4: human reference, amended 9 November 2026.** Due to time constraints, two Hindi-fluent annotators will each grade 40 questions in all four forms (160 answers each), reduced from the original 100-question plan. The sample contains 27 factual and 13 open-ended questions selected from the existing 60-item E5 subset, round-robin across subjects with seed 20261109. Selection uses metadata, not scores or completion status. This feasibility amendment occurred after grading began: a1 had 56 saved grades and a2 reported 40, with a2's file not yet received. Twenty-four saved a1 grades belong to the amended sample; all original work is retained. Sheets retain the original shuffled order and row IDs, hide item/form identifiers, and contain each selected question once in each 40-row block; within-block form counts need not be equal. Annotators work independently using all four criteria. Only cells graded by at least two annotators enter mean-human agreement analyses. E4 and E5 human-agreement analyses use only these 40 questions, whereas E5 model-only comparisons keep all 60. No two-rater human agreement result is available yet.
 
 **E5: mitigations.** A seeded 60-item subset contains 40 factual items with verified wrong twins and 20 open-ended items. Each variant has 240 E1, 360 E2 and 320 E3 planned judgments per judge. Hindi-rubric prompts require human approval before use. Translate-then-judge uses a fixed GPT-OSS translator for the 180 non-English correct answers, while English answers and wrong English twins pass through. The bias-aware variant appends an instruction to disregard language or script. Aggregation reuses baseline outputs without new calls. Variant changes are paired against each judge's baseline on the same subset.
 
@@ -227,11 +238,11 @@ The study uses two main judges, one configuration per judge, a small constructed
 
 Rubric scores are bounded and ordinal. Mean differences and OLS are useful summaries but do not remove this limitation. E2's two orders are correlated. Complete-case comparisons may be affected by differential parse failure. Both judges' score distributions and all missing denominators should accompany the final report. Small-cell and exploratory results require caution; zero observed errors do not establish zero risk.
 
-E4 human grades and the two-rater comment check are absent. Hindi-rubric experiments await human prompt approval. Translate-then-judge is complete for both main judges, but its form-specific outcomes and unverified translation fidelity prevent a universal mitigation ranking. No final conclusion about judge–human alignment is warranted. The app is implemented on a separate local branch and has not been integrated into the main deliverable.
+E4 has all 160 active a1 entries, including 84 bulk-assigned ratings without recorded individual review, but no two-rater reference yet. The reduced 40-question study has less precision than the original 100-question design; the 27/13 type splits are exploratory. The two-rater comment check and Hindi-rubric experiments are deferred to future work for this submission. Translate-then-judge is complete for both main judges, but its form-specific outcomes and unverified translation fidelity prevent a universal mitigation ranking. No final conclusion about judge–human alignment is warranted. The cached-response demo is integrated under demo/app.py; it supports optional live inference when the configured provider is available.
 
 ## 6. Current conclusion
 
-The completed experiments show that judge behavior varies across written forms and evaluation formats. Devanagari–Romanized score differences coexist with judge-specific position effects, wrong-answer acceptance and tie behavior. Prompt interventions can change some of these measures without establishing general invariance. The final interpretation requires the pending human reference and completed mitigation panel.
+The completed experiments show that judge behavior varies across written forms and evaluation formats. Devanagari–Romanized score differences coexist with judge-specific position effects, wrong-answer acceptance and tie behavior. Prompt interventions can change some of these measures without establishing general invariance. Human-alignment conclusions await the reduced human study. The Hindi-rubric arm and comment-validation extension are deferred to future work for this submission.
 
 ## References
 

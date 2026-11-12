@@ -1,0 +1,701 @@
+﻿row_id,question,reference_answer,answer,correctness,completeness,clarity,language_quality,notes
+a2-006,"One morning after sunrise, Suresh was standing facing a pole. The shadow of the pole fell exactly to his right. Can you tell me the direction towards which the shadow was pointing - east, south, west, or north? Explain your reasoning steps.",,"Chhaaya pashchim disha ki or thi. Subah surya poorv mein ugta hai, isliye parchhaaiyaan pashchim ki or padti hain. Choonki chhaaya theek Suresh ke daayin or padi, isliye pashchim uske daayin or tha. Jis vyakti ke daayin or pashchim ho, uska munh dakshin ki or hota hai, isliye Suresh dakshin ki or dekh raha tha aur chhaaya pashchim ki or thi.",,,,,
+a2-012,"Imagine you are participating in a race with a group of people. If you have just overtaken the second person, what's your current position? Where is the person you just overtook?",,"Ab aap second position par hain. Second position wale person ko overtake karne ka matlab hai ki aapne uski jagah li hai, first position nahi, kyunki leader abhi bhi aapse aage hai. Jis person ko aapne abhi overtake kiya, woh ek position peeche chala gaya hai aur ab third position par hai.",,,,,
+a2-013,"Traditionally art has been defined as _____.
+Options:
+(A) wealth
+(B) utility
+(C) representation
+(D) well being",(C) Representation.,"सही उत्तर (C) है, निरूपण। प्लेटो और अरस्तू के समय से कला को पारंपरिक रूप से अनुकरण, यानी यथार्थ की नकल या निरूपण, माना जाता रहा। आधुनिक युग में इस परिभाषा को व्यापक चुनौती मिली, ख़ासकर अमूर्त कला से, जो किसी पहचानने योग्य वस्तु का चित्रण नहीं करती।",,,,,
+a2-014,"Abraham Maslow proposed the idea that some motives are more imperative to survival than others. Which of the following approaches expresses this?
+Options:
+(A) Homeostatic regulation
+(B) Goal-setting
+(C) Expectancy-value
+(D) Hierarchy of needs",(D) Hierarchy of needs.,"सही उत्तर (D) है, आवश्यकताओं का पदानुक्रम। मैस्लो ने मानव आवश्यकताओं को स्तरों में व्यवस्थित किया, जिसमें भोजन और पानी जैसी शारीरिक आवश्यकताएँ सबसे नीचे हैं, फिर सुरक्षा, अपनापन, सम्मान और अंत में आत्म-सिद्धि। आमतौर पर निचली, अधिक बुनियादी आवश्यकताएँ पूरी होने के बाद ही ऊँची आवश्यकताएँ व्यवहार को प्रेरित करती हैं।",,,,,
+a2-018,"Describe a vivid and unique character, using strong imagery and creative language. Please answer in fewer than two paragraphs.",,"Boodhi Mrs. Kapoor ek aise corner par umbrellas bechti thi jahan kabhi baarish hoti hi nahi lagti thi. Woh ek dried apricot jitni chhoti aur wrinkled thi, lekin unki aankhein sunlight mein wet pebbles ki tarah chamakti thi. Unka shawl forty colours ke patches ko jodkar bana tha, aur unka claim tha ki har square kisi aise country se stitch kiya gaya tha jahan woh kabhi nahi gayi thi. Woh achanak bursts mein hasti thi, jaise boiling kettle overflow ho jaaye, aur har passer-by ka secret uske batane se pehle hi jaan leti thi. Bachche kasam khaate the ki unke umbrellas doosre skies mein khulte hain: ek snow se bhara, ek falling petals se, aur ek stars se.",,,,,
+a2-023,"Which language family contains Italian, Spanish, Portuguese, and Romanian?
+Options:
+(A) European
+(B) Slavic
+(C) Germanic
+(D) Romance",(D) Romance; these languages descend from Latin.,"Sahi answer (D) hai, Romance language family. Italian, Spanish, Portuguese aur Romanian, ye sab languages Vulgar Latin se develop hui, jo Roman Empire mein boli jaane wali everyday Latin thi. Slavic aur Germanic Indo-European family ki alag branches hain, aur 'European' koi language family nahi hai.",,,,,
+a2-025,Describe five principles for evaluating the digital transformation of the Indian economy.,,"Five principles can guide an evaluation of India's digital transformation. First, access: measure how widely people can use digital services, including internet coverage, smartphone ownership and the gap between urban and rural areas. Second, inclusion: check whether women, the poor and older people actually benefit, for example through Aadhaar-linked services and UPI payments. Third, economic impact: assess effects on productivity, formalisation of businesses, jobs and the growth of start-ups. Fourth, security and trust: examine data protection, privacy and the level of online fraud. Fifth, sustainability and governance: ask whether digital public infrastructure is reliable, open, well regulated and able to keep improving over time.",,,,,
+a2-026,"What is dualism?
+Options:
+(A) Dualism suggests that international and domestic law are part of a unified legal system
+(B) Under dualism, international and domestic laws comprise distinct legal Systems
+(C) Dualism suggests that international and domestic law are distinct but equal in hierarchy
+(D) Dualism suggests that international and domestic law are distinct legal systems whereby domestic law always prevails",(B) International and domestic law are distinct legal systems.,"सही उत्तर (B) है। द्वैतवाद के अनुसार अंतरराष्ट्रीय कानून और घरेलू कानून दो अलग-अलग विधि प्रणालियाँ हैं, इसलिए कोई संधि किसी राज्य के भीतर तब तक प्रभावी नहीं होती जब तक राष्ट्रीय विधान उसे घरेलू कानून में परिवर्तित न कर दे। यह एकत्ववाद से भिन्न है, जो दोनों को एक ही विधि व्यवस्था के अंग मानता है।",,,,,
+a2-027,"Write a descriptive paragraph about the effects of the monsoon in India. Include sensory details such as the sound of rain, the earthy smell of wet soil and the greenery spreading all around, and also explain its effect on daily life and agriculture.",,"Jab aakhirkaar Bhaarat mein monsoon aata hai, to pehli boondein teen ki chhaton par hazaaron nanhe haathon ki tarah thaap deti hain, aur jald hi baarish chaandi ki chaadaron jaisi garajti hui barasne lagti hai. Pyaasi dharti apni meethi, sondhi khushboo chhodti hai, geeli mitti ki vah gandh jiska sab poori garmi intezaar karte hain. Kuch hi dinon mein bhoore khet aur dhool bhari pahaadiyaan gehre hare rang mein badal jaati hain, aur mendhak tatha mor apni aawaazon se shaamon ko bhar dete hain. Rozmarra ka jeevan bhi badal jaata hai: sadkon par paani bhar jaata hai, relgaadiyaan der se chalti hain aur har jagah chhaate khil uthte hain, jabki bachche khushi se paani bhare gaddhon mein chhapaak-chhapaak karte hain. Kisaanon ke liye baarish swayam jeevan hai, jo taalaabon aur kuon ko bharti hai aur dhaan, kapaas tatha anya khareef faslon ki buvaai sambhav banaati hai, jo desh ka pet bharti hain.",,,,,
+a2-029,"Photosynthesis is a vital process for life on Earth. Could you outline the two main stages of photosynthesis, including where they take place within the chloroplast, and the primary inputs and outputs for each stage?",,"Prakaash-sanshleshan ke do mukhya charan hote hain. Prakaash par nirbhar abhikriyaayein haritlavak ki thylakoid jhilliyon mein hoti hain. Inmein prakaash urja, jal aur vaahak anu ADP tatha NADP+ lagte hain, aur inse oxygen, ATP tatha NADPH bante hain. Prakaash se swatantra abhikriyaayein, yaani Calvin chakra, stroma mein hoti hain. Inmein carbon dioxide ke saath pehle charan se mile ATP aur NADPH ka upyog hota hai, aur inse glucose (sharkara G3P ke maadhyam se) banta hai, saath hi ADP aur NADP+ vaapas prakaash abhikriyaon ko mil jaate hain.",,,,,
+a2-033,"On which planet in our solar system can you find the Great Red Spot?
+Options:
+(A) Venus
+(B) Mars
+(C) Jupiter
+(D) Saturn",(C) Jupiter.,"सही उत्तर (C) है, बृहस्पति। महान लाल धब्बा बृहस्पति के वायुमंडल में एक विशाल तूफ़ान है, जो पृथ्वी से भी बड़ा है और 150 से अधिक वर्षों से देखा जा रहा है। यह शुक्र, मंगल या शनि पर नहीं पाया जाता।",,,,,
+a2-042,Discuss the concept of solidarity in human societies. Analyse how collective action and mutual support help humans overcome challenges and achieve common goals.,,"Ekjutata ekta aur saajha zimmedaari ki vah bhaavna hai jo kisi samooh ke sadasyon ko baandhti hai aur unhein ek-doosre ka saath dene ke liye prerit karti hai. Samaajshaastri Emile Durkheim ne chhote paaramparik samudaayon mein samaanata par aadhaarit yaantrik ekjutata aur jatil aadhunik samaajon mein paraspar nirbharta par aadhaarit saavayavi ekjutata mein antar kiya. Saamoohik kaarravaai is bhaavna ko parinaamon mein badalti hai: milkar prayaas karne waale log vah haasil kar sakte hain jo akele vyakti nahi kar sakte, jaise gaanv waalon ka milkar kuaan banaana, mazdooron ka sangh banaana, ya naagrikon ka swatantrata ya naagrik adhikaaron ke aandolanon mein shaamil hona. Aapsi sahyog saajha sansaadhanon, swayamseva aur dekhbhaal ke maadhyam se logon ko baadh ya mahaamaari jaise sankaton se ubarne mein bhi madad karta hai. Is tarah ekjutata vishvaas aur lacheelapan banaati hai, jisse saajha lakshya praapt karne yogya bante hain.",,,,,
+a2-044,Consider a satellite that is in a circular orbit around the Earth. The speed of the satellite decreases. What will happen to the satellite's orbital radius and period of revolution? Please justify your answer using principles of physics.,,"वृत्ताकार कक्षा में उपग्रह के लिए गुरुत्व ही अभिकेंद्र बल प्रदान करता है, इसलिए GMm/r² = mv²/r, जिससे v = √(GM/r) मिलता है। अतः कक्षीय वेग त्रिज्या के वर्गमूल के व्युत्क्रमानुपाती है: वृत्ताकार कक्षा में धीमे चलने वाले उपग्रह को पृथ्वी से अधिक दूर होना चाहिए। इसलिए यदि उपग्रह का वेग घटता है और वह वृत्ताकार कक्षा में बना रहता है, तो उसकी कक्षीय त्रिज्या बढ़ जाती है। उसका परिक्रमण काल, T = 2πr/v, भी बढ़ता है, क्योंकि पथ लंबा हो जाता है जबकि वेग घटता है; यह केप्लर के तीसरे नियम, T² ∝ r³, से मेल खाता है।",,,,,
+a2-045,"You can see a beautiful red house to your left and a hypnotic greenhouse to your right, an attractive heated pink place in the front. So, where is the White House?",,"White House Washington, D.C. mein 1600 Pennsylvania Avenue par hai; yah Sanyukt Raajya America ke raashtrapati ka aadhikaarik nivaas hai. Prashn mein bataaye gaye ghar, ek laal ghar, ek greenhouse aur ek garm gulaabi jagah, bas aaspaas ki imaaraton ka mazedaar varnan hain aur koi vaastavik sanket nahi dete. Yah prashn ek paheli hai, jo is baat par tiki hai ki ""White House"" naam drishya mein ek aur rangeen ghar jaisa lagta hai.",,,,,
+a2-048,"Levallois technology involved a shift in emphasis from:
+Options:
+(A) producing core tools to producing flakes.
+(B) producing pottery to producing clothing.
+(C) producing arrows to producing spear points.
+(D) larger, duller axes to smaller, sharper ones.",(A) From producing core tools to producing flakes.,"The answer is (A): from producing core tools to producing flakes. In the Levallois technique, a stone core was carefully shaped in advance so that a flake of predictable size and shape could be struck off. The flake itself became the tool, rather than the core being worked into a hand axe.",,,,,
+a2-054,"What is a mohel?
+Options:
+(A) A ritual circumciser
+(B) A type of oil lame
+(C) A teacher
+(D) A covenant",(A) A ritual circumciser.,"Sahi answer (A) hai: mohel ek ritual circumciser hai. Judaism mein mohel ko brit milah perform karne ki training di jaati hai, jo birth ke eighth day par baby boy ka circumcision hai. Ye ceremony God aur Abraham ke beech ke covenant ko mark karti hai, lekin mohel word person ko refer karta hai, covenant ko nahi.",,,,,
+a2-056,"What is the main problem associated with landfills in India, and what effective management practices and policies can be implemented to deal with it? In addition, can community participation and awareness campaigns make any special contribution in this direction?",,"Main problem ye hai ki India ke landfills mein bahut zyada mixed, unsegregated waste pahunchta hai, isliye zyada tar urban dumps scientifically designed landfills ke bajaye overflowing open sites hain. Sadta hua organic waste methane release karta hai, jisse baar-baar fires lagti hain, aur leachate groundwater mein mil jaata hai, jisse aas-paas ke residents ki health affect hoti hai. Effective solutions source par hi waste ko wet, dry aur hazardous mein segregate karne se start hote hain, jaisa Solid Waste Management Rules, 2016 mein required hai. Wet waste se compost ya biogas banaya ja sakta hai, dry waste recycle kiya ja sakta hai, aur purane dumps biomining se clear kiye ja sakte hain. Community participation bahut zaroori hai: Swachh Bharat Mission jaise awareness campaigns households ki habits badalte hain aur segregation aur recycling ko practically successful banate hain.",,,,,
+a2-057,"Which of the following best describes the location where the carotid pulse can be found?
+Options:
+(A) In front of the ears and just above eye level
+(B) In the antecubital space
+(C) In the middle of the groin
+(D) On the anterior side of the neck","(D) On the anterior side of the neck, beside the trachea.","The answer is (D), on the anterior side of the neck. The carotid pulse is felt in the front of the neck, just beside the trachea and below the angle of the jaw, where the common carotid artery runs. The other options describe the temporal, brachial and femoral pulse sites.",,,,,
+a2-058,"When an influenza virus enters a cell, it immediately starts to do which of the following?
+Options:
+(A) Incorporate viral DNA into the host cell’s chromosome
+(B) Destroy the host cell’s transcriptional machinery
+(C) Replicate its genetic material and synthesize viral proteins
+(D) Use a viral copy of reverse transcriptase to manufacture viral DNA",(C) Replicate its genetic material and synthesize viral proteins.,"Sahi uttar (C) hai: yah apni aanuvanshik saamagri ki pratikriti banaata hai aur vishaanu protein sanshleshit karta hai. Influenza ek RNA vishaanu hai, jo apne RNA genome ki pratilipi apne RNA polymerase se banaata hai aur vishaanu protein banaane ke liye parposhi ke ribosome ka upyog karta hai. Yah retrovirus nahi hai, isliye yah reverse transcriptase se DNA nahi banaata aur na hi parposhi ke gunsootra mein judta hai.",,,,,
+a2-059,"If both parents are affected with the same autosomal recessive disorder then the probability that each of their children will be affected equals ___.
+Options:
+(A) 1 in 4
+(B) 1 in 2
+(C) 2 in 3
+(D) 1",(D) 1; every child is affected.,"Sahi uttar (D) hai: praayikta 1 hai. Autosomal aprabhaavi vikaar se prabhaavit vyakti mein rog waale allele ki do pratiyaan hoti hain. Yadi maata-pita dono prabhaavit hain, to dono keval rog waala allele hi aage de sakte hain, isliye har bachche ko do pratiyaan milti hain aur vah prabhaavit hota hai.",,,,,
+a2-061,"What was a main organizational change proposed by the 9/11 Commission with regard to the U.S. intelligence community?
+Options:
+(A) Creation of the Department of Homeland Security
+(B) Moving the Department of Defense Intelligence Agencies to the CIA for better coordination
+(C) Creation of the National Intelligence Director
+(D) Moving the domestic intelligence component of the FBI to the CIA",(C) Creation of a National Intelligence Director.,"सही उत्तर (C) है: राष्ट्रीय खुफ़िया निदेशक का पद बनाना। 9/11 आयोग ने पाया कि अनेक खुफ़िया एजेंसियाँ आपस में जानकारी ठीक से साझा नहीं करती थीं, इसलिए उसने उनकी निगरानी और समन्वय के लिए एक ही अधिकारी की सिफ़ारिश की। कांग्रेस ने 2004 में राष्ट्रीय खुफ़िया निदेशक का पद बनाया।",,,,,
+a2-064,"A student pushes a puck across a table, moving it from position x = 0 to position x = 0.2 m. After he lets go, the puck continues to travel across the table, coming to rest at position x = 1.2 m. When the puck is at position x = 1.0 m, which of the following is a correct assertion about the net force on the puck?
+Options:
+(A) The net force is in the negative direction, because the puck is moving in the positive direction but slowing down.
+(B) The net force is down, because the puck is near the Earth, where gravitational acceleration is 10 m/s^2 downward.
+(C) The net force is in the positive direction, because the student’s push caused the puck to speed up in the positive direction.
+(D) The net force is zero, because the student’s push in the positive direction must equal the force of friction in the negative direction.","(A) Negative direction, because the puck is slowing down.","The answer is (A): the net force is in the negative direction. At x = 1.0 m the student is no longer pushing, and the puck is moving in the positive direction while slowing down. Slowing down means its acceleration, and therefore the net force (friction), points opposite to its motion.",,,,,
+a2-065,"Theories of racialized discourse suggest that:
+Options:
+(A) race is an objective way of categorizing people on biological grounds
+(B) the idea of race is socially constructed through powerful ideologies
+(C) race relations in Britain and America can be traced back to colonial times
+(D) people choose their racial identity and this becomes fixed",(B) The idea of race is socially constructed through powerful ideologies.,"Sahi answer (B) hai: race ka idea powerful ideologies ke through socially constructed hota hai. Ye theories argue karti hain ki racial categories natural biological divisions nahi hain, balki language, media aur political discourse ke through banai aur maintain ki jaati hain. Aisa discourse social differences ko natural batakar inequality ko justify kar sakta hai.",,,,,
+a2-066,"1 F is theoretically equal to
+Options:
+(A) 1 ohm of resistance
+(B) ratio of 1 V to 1 C
+(C) ratio of 1 C to 1 V
+(D) none of these",(C) The ratio of 1 C to 1 V.,"The answer is (C): the ratio of 1 coulomb to 1 volt. Capacitance is defined as C = Q/V, so a capacitor has a capacitance of one farad if it stores one coulomb of charge when one volt is applied across it. The ohm is the unit of resistance, not capacitance.",,,,,
+a2-069,"Buffer-overflow may remain as a bug in apps if __________ are not done fully.
+Options:
+(A) boundary hacks
+(B) memory checks
+(C) boundary checks
+(D) buffer checks",(C) Boundary checks.,"Sahi uttar (C) hai, seema jaanch. Buffer overflow tab hota hai jab koi program kisi buffer mein uski kshamata se adhik data likh deta hai, jo paas ki memory mein phail jaata hai. Yah jaanchna ki har lekhan buffer ki seemaaon ke bheetar rahe, is dosh ko rokta hai.",,,,,
+a2-074,"Which of the following fallacies happen if someone argues that you are a reasonable and intelligent person, so of course you understand his claim is true?
+Options:
+(A) significance
+(B) argument from authority
+(C) appeal to pride
+(D) slippery slope",(C) Appeal to pride.,"The answer is (C), appeal to pride. The arguer flatters you as reasonable and intelligent so that you will accept the claim to protect that image, rather than because of any evidence. It is a form of appeal to emotion, not an argument from authority.",,,,,
+a2-075,"The fallacy of appeal to emotions consists of
+Options:
+(A) trying to make an opponent's argument seem ridiculous
+(B) defending wrongdoing by claiming the opposing arguer does the same thing
+(C) arguing that an argument should be rejected because the source of the argument
+(D) trying to get someone else to agree to a claim only by arousing that person's feelings about the subject",(D) Getting agreement only by arousing the person's feelings about the subject.,"Sahi answer (D) hai: kisi person ko sirf subject ke baare mein uski feelings arouse karke kisi claim se agree karwane ki koshish karna. Evidence dene ke bajaye arguer agreement paane ke liye fear, pity, anger ya pride ka sahara leta hai. Opponent ke argument ko ridiculous dikhana ek alag fallacy hai, ridicule.",,,,,
+a2-076,"Where is the sinoatrial node located?
+Options:
+(A) Between the left atrium and the left ventricle
+(B) Between the right atrium and the right ventricle
+(C) In the upper wall of the right atrium
+(D) In the upper wall of the left ventricle",(C) In the upper wall of the right atrium.,"Sahi answer (C) hai: right atrium ki upper wall mein, superior vena cava ke opening ke paas. Sinoatrial node heart ka natural pacemaker hai, jo har heartbeat start karne wale electrical impulses generate karta hai. Atria aur ventricles ke beech wala node atrioventricular node hai.",,,,,
+a2-077,"What is a major limitation of using BMI (body mass index) as a method of body fat measurements?
+Options:
+(A) It is not an accurate measure for average people
+(B) It is more accurate than height-weight tables
+(C) It does not distinguish between fat and fat free mass
+(D) All of the above",(C) It does not distinguish between fat and fat-free mass.,"Sahi answer (C) hai: BMI fat aur fat-free mass mein difference nahi karta. Ise sirf weight aur height se calculate kiya jaata hai, isliye ek muscular athlete ko kam body fat hone ke bawajood overweight maana ja sakta hai. Ye is baare mein bhi kuch nahi batata ki fat body mein kahan store hai.",,,,,
+a2-079,"The units for the rate of a chemical reaction are
+Options:
+(A) L2 mol-2 s-1
+(B) mol L-1 s-1
+(C) L mol-1 s-1
+(D) it depends on the particular reaction",(B) mol L⁻¹ s⁻¹.,"सही उत्तर (B) है, mol L⁻¹ s⁻¹। अभिक्रिया की दर किसी अभिकारक या उत्पाद की सांद्रता में प्रति इकाई समय होने वाला परिवर्तन है, और सांद्रता मोल प्रति लीटर में मापी जाती है। दर स्थिरांक की इकाइयाँ अभिक्रिया की कोटि पर निर्भर करती हैं, लेकिन स्वयं दर की इकाइयाँ नहीं।",,,,,
+a2-084,"Which would be the easiest way to burn a copper penny?
+Options:
+(A) Hold the copper penny with crucible tongs, and heat strongly in the flame of a Bunsen burner.
+(B) Use the method in (A), but use an oxyacetylene torch to reach a higher temperature.
+(C) Grind the copper penny into very small, dust-sized particles, and spray the particles into a Bunsen burner flame.
+(D) Dissolve the copper penny in acid, precipitate the hydroxide, and heat in a Bunsen burner flame to make the oxide.",(C) Grind it to dust and spray it into the flame; the large surface area lets it burn.,"सही उत्तर (C) है। सिक्के को बारीक धूल में पीसने से उसका पृष्ठ क्षेत्रफल बहुत बढ़ जाता है, जिससे एक साथ कहीं अधिक तांबे के परमाणु ऑक्सीजन के संपर्क में आते हैं और कण साधारण बुन्सेन ज्वाला में तेज़ी से जल जाते हैं। ठोस सिक्का बहुत जल्दी ऊष्मा खो देता है, इसलिए अधिक गर्म टॉर्च से भी नहीं जलता, और विकल्प (D) धातु को जलाने के बजाय केवल रासायनिक रूप से कॉपर ऑक्साइड बनाता है।",,,,,
+a2-086,"When an appeal is made to the Supreme Court, the court usually
+Options:
+(A) refuses to hear the appeal
+(B) declares a mistrial
+(C) orders the lower court to retry the case
+(D) rules in favor of the defendant",(A) It usually refuses to hear the appeal.,"The answer is (A): it usually refuses to hear the appeal. The Supreme Court receives several thousand petitions each year but grants review in fewer than 100 cases, usually around 60 to 70. When it denies certiorari, the lower court's decision stands.",,,,,
+a2-090,"Let x = 1. What is x << 3 in Python 3?
+Options:
+(A) 1
+(B) 3
+(C) 8
+(D) 16",(C) 8.,"The answer is (C), 8. The << operator shifts the bits of a number to the left, and each shift multiplies it by 2. Shifting 1 (binary 1) left by three places gives binary 1000, which is 8.",,,,,
+a2-091,"Draft a professional email seeking your supervisor's feedback on the 'Quarterly Financial Report' you prepared. Ask specifically about the data analysis, presentation style, and the clarity of conclusions drawn. Keep the email short and to the point.",,"Subject: Feedback request on the Quarterly Financial Report. Dear Ms. Sharma, I have completed the Quarterly Financial Report and would value your feedback before it is circulated. In particular, could you let me know whether the data analysis is sound, whether the presentation style and charts are clear and professional, and whether the conclusions follow clearly from the figures? I would be grateful for any comments by Friday. Thank you for your time. Best regards, Rahul",,,,,
+a2-092,"A common nuclear fission reactor
+Options:
+(A) heats water
+(B) generates electricity directly
+(C) gets energy from nothing
+(D) is a major polluter of the atmosphere",(A) It heats water; the steam drives turbines and generators.,"सही उत्तर (A) है, यह पानी गर्म करता है। यूरेनियम के विखंडन से ऊष्मा निकलती है जो पानी को भाप में बदल देती है, और यह भाप विद्युत जनित्रों से जुड़ी टरबाइनों को घुमाती है। रिएक्टर सीधे बिजली नहीं बनाता, शून्य से ऊर्जा प्राप्त नहीं करता, और सामान्य संचालन में वायु प्रदूषण का बड़ा स्रोत नहीं है।",,,,,
+a2-094,Now you are a geography expert. Your task is to explain complex geographical concepts simply so that ordinary people can understand them. Let's begin with this question: 'What is the extent of the Indian subcontinent? Which major geographical features does it include?',,"Indian subcontinent South Asia ka huge landmass hai, jo mainly Indian tectonic plate par hai. Ismein usually India, Pakistan, Bangladesh, Nepal, Bhutan aur Sri Lanka include hote hain, aur often Maldives bhi. Iske north mein Himalayas aur doosri mountain ranges hain, aur baaki sides par Arabian Sea, Bay of Bengal aur Indian Ocean. Iske main features hain: duniya ke sabse oonche mountains Himalayas; Indus, Ganga aur Brahmaputra se irrigate hone wale fertile Indo-Gangetic plains; west mein Thar Desert; south mein Deccan Plateau, jiske dono taraf Western aur Eastern Ghats hain; aur islands ke saath lambi coastlines.",,,,,
+a2-096,"Now you are a machine learning engineer. Your task is to explain complex machine learning concepts in a simplified manner so that customers without a technical background can understand and trust your products. Let's start with the question: ""What is a language model? Is it trained using labeled or unlabelled data?""",,"Language model ek computer program hai jisne bahut zyada text padhkar seekha hai ki language kaise kaam karti hai. Uski basic skill ye predict karna hai ki kisi sentence mein next word kaunsa hoga, aur ye baar-baar karke woh questions ke answers de sakta hai, documents summarise kar sakta hai ya emails likh sakta hai. Ise mostly unlabelled data par train kiya jaata hai: books aur websites ka normal text, jahan har step ka ""answer"" bas text mein pehle se maujood next word hota hai, isliye kisi ko haath se label karne ki zaroorat nahi padti. Iske baad kai models ko thode labelled ya humans dwara rate kiye gaye examples se fine-tune kiya jaata hai, taaki woh zyada helpful aur safe banein.",,,,,
+a2-097,"The theological term homoousios means which of the following?
+Options:
+(A) of a similar substance
+(B) of the same substance
+(C) of like substance
+(D) of human substance",(B) Of the same substance.,"सही उत्तर (B) है: ""एक ही सार का""। यह शब्द 325 ईस्वी में निकेया की परिषद में यह कहने के लिए अपनाया गया था कि पुत्र और पिता एक ही सार के हैं। इसकी तुलना होमोइउसियोस यानी ""समान सार का"" से की गई, जिस मत को परिषद ने अस्वीकार कर दिया।",,,,,
+a2-098,"In vertebrate embryos, which of the following developmental processes most directly results in the formation of the three primary germ layers?
+Options:
+(A) Neurulation
+(B) Blastula formation
+(C) Cleavage
+(D) Gastrulation","(D) Gastrulation forms the ectoderm, mesoderm and endoderm.","Sahi uttar (D) hai, gastrulation. Gastrulation ke dauraan blastula ki koshikaayein andar ki or jaati hain aur punarvyavasthit hokar teen praathmik bhrooniya partein banaati hain: ectoderm, mesoderm aur endoderm. Vidalan aur blastula ka banna isse pehle hota hai, aur neurulation in parton ke banne ke baad hota hai.",,,,,
+a2-100,"You hear that the United States has a negative balance in the current account. With this information we conclude that
+Options:
+(A) there is a trade deficit.
+(B) there is a capital account deficit.
+(C) there is a capital account surplus.
+(D) more U.S. dollars are being sent abroad than foreign currencies are being sent to the United States.",(C) There is a capital account surplus.,"Sahi uttar (C) hai: poonji khaate mein adhishesh hai. Bhugtaan santulan mein chaalu khaate aur poonji tatha vitteeya khaate ka yog, saankhyikeeya truti ko chhodkar, shoonya hona chahiye. Isliye chaalu khaate ka ghaata videshi poonji ke shuddh antarvaah se santulit hota hai, jo poonji khaate ka adhishesh hai.",,,,,
+a2-104,"Where is the sinoatrial node located?
+Options:
+(A) Between the left atrium and the left ventricle
+(B) Between the right atrium and the right ventricle
+(C) In the upper wall of the right atrium
+(D) In the upper wall of the left ventricle",(C) In the upper wall of the right atrium.,"The answer is (C): in the upper wall of the right atrium, near the opening of the superior vena cava. The sinoatrial node is the heart's natural pacemaker, generating the electrical impulses that start each heartbeat. The node between the atria and ventricles is the atrioventricular node.",,,,,
+a2-106,"One morning after sunrise, Suresh was standing facing a pole. The shadow of the pole fell exactly to his right. Can you tell me the direction towards which the shadow was pointing - east, south, west, or north? Explain your reasoning steps.",,"Shadow west ki taraf point kar rahi thi. Morning mein Sun east mein rise hota hai, isliye shadows west ki taraf padti hain. Kyunki shadow exactly Suresh ke right side par padi, isliye west uske right par tha. Jis person ke right par west ho, woh south face kar raha hota hai, isliye Suresh south face kar raha tha aur shadow west ki taraf thi.",,,,,
+a2-110,Now you are a geography expert. Your task is to explain complex geographical concepts simply so that ordinary people can understand them. Let's begin with this question: 'What is the extent of the Indian subcontinent? Which major geographical features does it include?',,"The Indian subcontinent is the large landmass of South Asia that sits largely on the Indian tectonic plate. It usually includes India, Pakistan, Bangladesh, Nepal, Bhutan and Sri Lanka, and often the Maldives. It is bounded by the Himalayas and other mountain ranges in the north, and by the Arabian Sea, the Bay of Bengal and the Indian Ocean on the other sides. Its main features are the Himalayas, the world's highest mountains; the fertile Indo-Gangetic plains watered by the Indus, Ganga and Brahmaputra; the Thar Desert in the west; the Deccan Plateau in the south, flanked by the Western and Eastern Ghats; and long coastlines with islands.",,,,,
+a2-112,"In vertebrate embryos, which of the following developmental processes most directly results in the formation of the three primary germ layers?
+Options:
+(A) Neurulation
+(B) Blastula formation
+(C) Cleavage
+(D) Gastrulation","(D) Gastrulation forms the ectoderm, mesoderm and endoderm.","Sahi answer (D) hai, gastrulation. Gastrulation ke time blastula ke cells andar move karte hain aur rearrange hokar teen primary germ layers banate hain: ectoderm, mesoderm aur endoderm. Cleavage aur blastula formation isse pehle hote hain, aur neurulation germ layers banne ke baad hota hai.",,,,,
+a2-116,"When an influenza virus enters a cell, it immediately starts to do which of the following?
+Options:
+(A) Incorporate viral DNA into the host cell’s chromosome
+(B) Destroy the host cell’s transcriptional machinery
+(C) Replicate its genetic material and synthesize viral proteins
+(D) Use a viral copy of reverse transcriptase to manufacture viral DNA",(C) Replicate its genetic material and synthesize viral proteins.,"Sahi answer (C) hai: ye apne genetic material ko replicate karta hai aur viral proteins synthesize karta hai. Influenza ek RNA virus hai, jo apne RNA genome ko apne RNA polymerase se copy karta hai aur viral proteins banane ke liye host ke ribosomes use karta hai. Ye retrovirus nahi hai, isliye ye reverse transcriptase se DNA nahi banata aur na hi host chromosome mein integrate hota hai.",,,,,
+a2-120,"Which of the following fallacies happen if someone argues that you are a reasonable and intelligent person, so of course you understand his claim is true?
+Options:
+(A) significance
+(B) argument from authority
+(C) appeal to pride
+(D) slippery slope",(C) Appeal to pride.,"सही उत्तर (C) है, गौरव-भावना का आह्वान। तर्क देने वाला आपको समझदार और बुद्धिमान बताकर आपकी चापलूसी करता है, ताकि आप अपनी उस छवि को बचाने के लिए दावा मान लें, न कि किसी प्रमाण के कारण। यह भावनाओं के आह्वान का एक रूप है, प्राधिकार पर आधारित तर्क नहीं।",,,,,
+a2-124,"Draft a professional email seeking your supervisor's feedback on the 'Quarterly Financial Report' you prepared. Ask specifically about the data analysis, presentation style, and the clarity of conclusions drawn. Keep the email short and to the point.",,"विषय: त्रैमासिक वित्तीय रिपोर्ट पर प्रतिक्रिया का अनुरोध। आदरणीय सुश्री शर्मा, मैंने त्रैमासिक वित्तीय रिपोर्ट पूरी कर ली है और इसे वितरित करने से पहले आपकी प्रतिक्रिया जानना चाहूँगा। विशेष रूप से, क्या आप बता सकती हैं कि आँकड़ों का विश्लेषण ठोस है या नहीं, प्रस्तुति की शैली और आरेख स्पष्ट और पेशेवर हैं या नहीं, और निष्कर्ष आँकड़ों से स्पष्ट रूप से निकलते हैं या नहीं? शुक्रवार तक आपकी कोई भी टिप्पणी मिल जाए तो मैं आभारी रहूँगा। आपके समय के लिए धन्यवाद। सादर, राहुल",,,,,
+a2-125,"The units for the rate of a chemical reaction are
+Options:
+(A) L2 mol-2 s-1
+(B) mol L-1 s-1
+(C) L mol-1 s-1
+(D) it depends on the particular reaction",(B) mol L⁻¹ s⁻¹.,"Sahi uttar (B) hai, mol L⁻¹ s⁻¹. Abhikriya ki dar kisi abhikaarak ya utpaad ki saandrata mein prati ikaai samay hone waala parivartan hai, aur saandrata mol prati litre mein maapi jaati hai. Dar sthiraank ki ikaaiyaan abhikriya ki koti par nirbhar karti hain, lekin swayam dar ki ikaaiyaan nahi.",,,,,
+a2-126,"What was a main organizational change proposed by the 9/11 Commission with regard to the U.S. intelligence community?
+Options:
+(A) Creation of the Department of Homeland Security
+(B) Moving the Department of Defense Intelligence Agencies to the CIA for better coordination
+(C) Creation of the National Intelligence Director
+(D) Moving the domestic intelligence component of the FBI to the CIA",(C) Creation of a National Intelligence Director.,"Sahi uttar (C) hai: Raashtriya Khufiya Nideshak ka pad banaana. 9/11 aayog ne paaya ki anek khufiya agenciyaan aapas mein jaankaari theek se saajha nahi karti thin, isliye usne unki nigraani aur samanvay ke liye ek hi adhikaari ki sifaarish ki. Congress ne 2004 mein Raashtriya Khufiya Nideshak ka pad banaaya.",,,,,
+a2-127,"Photosynthesis is a vital process for life on Earth. Could you outline the two main stages of photosynthesis, including where they take place within the chloroplast, and the primary inputs and outputs for each stage?",,"Photosynthesis ke do main stages hote hain. Light-dependent reactions chloroplast ki thylakoid membranes mein hoti hain. Inke inputs light energy, water aur carriers ADP aur NADP+ hain, aur outputs oxygen, ATP aur NADPH hain. Light-independent reactions, yaani Calvin cycle, stroma mein hoti hain. Ye first stage se mile ATP aur NADPH ke saath carbon dioxide use karti hain, aur glucose (sugar G3P ke through) produce karti hain, saath hi ADP aur NADP+ wapas light reactions ko de deti hain.",,,,,
+a2-130,"A student pushes a puck across a table, moving it from position x = 0 to position x = 0.2 m. After he lets go, the puck continues to travel across the table, coming to rest at position x = 1.2 m. When the puck is at position x = 1.0 m, which of the following is a correct assertion about the net force on the puck?
+Options:
+(A) The net force is in the negative direction, because the puck is moving in the positive direction but slowing down.
+(B) The net force is down, because the puck is near the Earth, where gravitational acceleration is 10 m/s^2 downward.
+(C) The net force is in the positive direction, because the student’s push caused the puck to speed up in the positive direction.
+(D) The net force is zero, because the student’s push in the positive direction must equal the force of friction in the negative direction.","(A) Negative direction, because the puck is slowing down.","सही उत्तर (A) है: कुल बल ऋणात्मक दिशा में है। x = 1.0 m पर छात्र अब धक्का नहीं दे रहा, और पक धनात्मक दिशा में चलते हुए धीमा हो रहा है। धीमा होने का अर्थ है कि उसका त्वरण, और इसलिए कुल बल (घर्षण), उसकी गति की विपरीत दिशा में है।",,,,,
+a2-131,"What is the main problem associated with landfills in India, and what effective management practices and policies can be implemented to deal with it? In addition, can community participation and awareness campaigns make any special contribution in this direction?",,"The main problem is that India's landfills receive huge amounts of mixed, unsegregated waste, so most urban dumps are overflowing open sites rather than engineered landfills. Rotting organic waste releases methane, which causes frequent fires, and leachate seeps into groundwater, harming the health of nearby residents. Effective solutions start with segregating waste at source into wet, dry and hazardous streams, as required by the Solid Waste Management Rules, 2016. Wet waste can be composted or turned into biogas, dry waste recycled, and old dumps cleared by biomining. Community participation is essential: awareness campaigns, such as those under the Swachh Bharat Mission, change household habits and make segregation and recycling work in practice.",,,,,
+a2-132,Discuss the concept of solidarity in human societies. Analyse how collective action and mutual support help humans overcome challenges and achieve common goals.,,"Solidarity unity aur shared responsibility ki woh feeling hai jo kisi group ke members ko bandhti hai aur unhe ek-doosre ko support karne ke liye motivate karti hai. Sociologist Emile Durkheim ne chhoti traditional communities mein similarity par based mechanical solidarity aur complex modern societies mein interdependence par based organic solidarity mein difference kiya. Collective action is feeling ko results mein badalta hai: milkar effort karne wale log woh achieve kar sakte hain jo akele individuals nahi kar sakte, jaise villagers ka milkar well banana, workers ka union banana, ya citizens ka independence ya civil rights movements mein join karna. Mutual support shared resources, volunteering aur care ke through logon ko floods ya pandemics jaise crises se nikalne mein bhi help karta hai. Is tarah solidarity trust aur resilience build karti hai, jisse common goals achievable bante hain.",,,,,
+a2-134,"Let x = 1. What is x << 3 in Python 3?
+Options:
+(A) 1
+(B) 3
+(C) 8
+(D) 16",(C) 8.,"सही उत्तर (C) है, 8। << संकारक किसी संख्या के बिट्स को बाईं ओर खिसकाता है, और हर खिसकाव संख्या को 2 से गुणा कर देता है। 1 (द्विआधारी 1) को तीन स्थान बाईं ओर खिसकाने पर द्विआधारी 1000 मिलता है, जो 8 है।",,,,,
+a2-135,"Which of the following best describes the location where the carotid pulse can be found?
+Options:
+(A) In front of the ears and just above eye level
+(B) In the antecubital space
+(C) In the middle of the groin
+(D) On the anterior side of the neck","(D) On the anterior side of the neck, beside the trachea.","सही उत्तर (D) है, गर्दन के अग्र भाग पर। कैरोटिड नाड़ी गर्दन के सामने, श्वासनली के ठीक बगल में और जबड़े के कोण के नीचे महसूस होती है, जहाँ से सामान्य कैरोटिड धमनी गुज़रती है। बाकी विकल्प टेम्पोरल, ब्रेकियल और फ़ीमोरल नाड़ी के स्थानों का वर्णन करते हैं।",,,,,
+a2-139,Consider a satellite that is in a circular orbit around the Earth. The speed of the satellite decreases. What will happen to the satellite's orbital radius and period of revolution? Please justify your answer using principles of physics.,,"Vrittaakaar kaksha mein upgrah ke liye gurutva hi abhikendra bal pradaan karta hai, isliye GMm/r² = mv²/r, jisse v = √(GM/r) milta hai. Atah kaksheeya veg trijya ke vargmool ke vyutkramaanupaati hai: vrittaakaar kaksha mein dheeme chalne waale upgrah ko prithvi se adhik door hona chahiye. Isliye yadi upgrah ka veg ghatata hai aur vah vrittaakaar kaksha mein bana rehta hai, to uski kaksheeya trijya badh jaati hai. Uska parikraman kaal, T = 2πr/v, bhi badhta hai, kyonki path lamba ho jaata hai jabki veg ghatata hai; yah Kepler ke teesre niyam, T² ∝ r³, se mel khaata hai.",,,,,
+a2-141,"Theories of racialized discourse suggest that:
+Options:
+(A) race is an objective way of categorizing people on biological grounds
+(B) the idea of race is socially constructed through powerful ideologies
+(C) race relations in Britain and America can be traced back to colonial times
+(D) people choose their racial identity and this becomes fixed",(B) The idea of race is socially constructed through powerful ideologies.,"The answer is (B): the idea of race is socially constructed through powerful ideologies. These theories argue that racial categories are not natural biological divisions but are created and maintained through language, media and political discourse. Such discourse can justify inequality by presenting social differences as natural.",,,,,
+a2-142,"The theological term homoousios means which of the following?
+Options:
+(A) of a similar substance
+(B) of the same substance
+(C) of like substance
+(D) of human substance",(B) Of the same substance.,"Sahi uttar (B) hai: ""ek hi saar ka"". Yah shabd 325 Isvi mein Nicaea ki parishad mein yah kehne ke liye apnaaya gaya tha ki putra aur pita ek hi saar ke hain. Iski tulna homoiousios yaani ""samaan saar ka"" se ki gayi, jis mat ko parishad ne asveekaar kar diya.",,,,,
+a2-150,"Imagine you are participating in a race with a group of people. If you have just overtaken the second person, what's your current position? Where is the person you just overtook?",,"You are now in second place. Overtaking the person in second position means you take their place, not first place, since the leader is still ahead of you. The person you just overtook has dropped back one position and is now in third place.",,,,,
+a2-155,"Write a descriptive paragraph about the effects of the monsoon in India. Include sensory details such as the sound of rain, the earthy smell of wet soil and the greenery spreading all around, and also explain its effect on daily life and agriculture.",,"Jab finally India mein monsoon aata hai, toh pehli drops tin roofs par hazaron tiny hands ki tarah drum karti hain, aur jaldi hi baarish silver sheets ki tarah roar karte hue girne lagti hai. Pyaasi dharti apni sweet, earthy fragrance chhodti hai, wet soil ki woh smell jiska sab poori summer wait karte hain. Kuch hi dinon mein brown fields aur dusty hills vivid green ho jaate hain, aur frogs aur peacocks apni calls se evenings ko bhar dete hain. Daily life bhi change hoti hai: streets flood ho jaati hain, trains late chalti hain aur har jagah umbrellas khil uthte hain, jabki bachche khushi se puddles mein splash karte hain. Farmers ke liye baarish khud life hai, jo ponds aur wells ko bharti hai aur rice, cotton aur doosri kharif crops ki sowing possible banati hai, jo desh ka pet bharti hain.",,,,,
+a2-157,"Which would be the easiest way to burn a copper penny?
+Options:
+(A) Hold the copper penny with crucible tongs, and heat strongly in the flame of a Bunsen burner.
+(B) Use the method in (A), but use an oxyacetylene torch to reach a higher temperature.
+(C) Grind the copper penny into very small, dust-sized particles, and spray the particles into a Bunsen burner flame.
+(D) Dissolve the copper penny in acid, precipitate the hydroxide, and heat in a Bunsen burner flame to make the oxide.",(C) Grind it to dust and spray it into the flame; the large surface area lets it burn.,"Sahi uttar (C) hai. Sikke ko baareek dhool mein peesne se uska prishth kshetraphal bahut badh jaata hai, jisse ek saath kahin adhik taambe ke parmaanu oxygen ke sampark mein aate hain aur kan saadhaaran Bunsen jvaala mein tezi se jal jaate hain. Thos sikka bahut jaldi ushma kho deta hai, isliye adhik garm torch se bhi nahi jalta, aur vikalp (D) dhaatu ko jalaane ke bajaay keval raasaayanik roop se copper oxide banaata hai.",,,,,
+a2-160,"What is dualism?
+Options:
+(A) Dualism suggests that international and domestic law are part of a unified legal system
+(B) Under dualism, international and domestic laws comprise distinct legal Systems
+(C) Dualism suggests that international and domestic law are distinct but equal in hierarchy
+(D) Dualism suggests that international and domestic law are distinct legal systems whereby domestic law always prevails",(B) International and domestic law are distinct legal systems.,"Sahi uttar (B) hai. Dvaitvaad ke anusaar antarraashtriya kaanoon aur gharelu kaanoon do alag-alag vidhi pranaaliyaan hain, isliye koi sandhi kisi raajya ke bheetar tab tak prabhaavi nahi hoti jab tak raashtriya vidhaan use gharelu kaanoon mein parivartit na kar de. Yah ekatvavaad se bhinn hai, jo dono ko ek hi vidhi vyavastha ke ang maanta hai.",,,,,
+a2-162,"Which language family contains Italian, Spanish, Portuguese, and Romanian?
+Options:
+(A) European
+(B) Slavic
+(C) Germanic
+(D) Romance",(D) Romance; these languages descend from Latin.,"The answer is (D), the Romance language family. Italian, Spanish, Portuguese and Romanian all developed from Vulgar Latin, the everyday Latin spoken across the Roman Empire. Slavic and Germanic are separate branches of the Indo-European family, and 'European' is not a language family.",,,,,
+a2-164,"What is a mohel?
+Options:
+(A) A ritual circumciser
+(B) A type of oil lame
+(C) A teacher
+(D) A covenant",(A) A ritual circumciser.,"The answer is (A): a mohel is a ritual circumciser. In Judaism, a mohel is trained to perform the brit milah, the circumcision of a baby boy on the eighth day after birth. The ceremony marks the covenant between God and Abraham, but the word mohel refers to the person, not the covenant.",,,,,
+a2-165,"What is a major limitation of using BMI (body mass index) as a method of body fat measurements?
+Options:
+(A) It is not an accurate measure for average people
+(B) It is more accurate than height-weight tables
+(C) It does not distinguish between fat and fat free mass
+(D) All of the above",(C) It does not distinguish between fat and fat-free mass.,"The answer is (C): BMI does not distinguish between fat and fat-free mass. It is calculated only from weight and height, so a muscular athlete can be classed as overweight despite having little body fat. It also says nothing about where fat is stored.",,,,,
+a2-166,"1 F is theoretically equal to
+Options:
+(A) 1 ohm of resistance
+(B) ratio of 1 V to 1 C
+(C) ratio of 1 C to 1 V
+(D) none of these",(C) The ratio of 1 C to 1 V.,"सही उत्तर (C) है: 1 कूलॉम और 1 वोल्ट का अनुपात। धारिता को C = Q/V से परिभाषित किया जाता है, इसलिए किसी संधारित्र की धारिता एक फ़ैराड होती है यदि उस पर एक वोल्ट लगाने पर वह एक कूलॉम आवेश संचित करे। ओम प्रतिरोध की इकाई है, धारिता की नहीं।",,,,,
+a2-167,"A common nuclear fission reactor
+Options:
+(A) heats water
+(B) generates electricity directly
+(C) gets energy from nothing
+(D) is a major polluter of the atmosphere",(A) It heats water; the steam drives turbines and generators.,"Sahi uttar (A) hai, yah paani garm karta hai. Uranium ke vikhandan se ushma nikalti hai jo paani ko bhaap mein badal deti hai, aur yah bhaap vidyut janitron se judi turbinon ko ghumaati hai. Reactor seedhe bijli nahi banaata, shoonya se urja praapt nahi karta, aur saamaanya sanchaalan mein vaayu pradooshan ka bada srot nahi hai.",,,,,
+a2-168,"The fallacy of appeal to emotions consists of
+Options:
+(A) trying to make an opponent's argument seem ridiculous
+(B) defending wrongdoing by claiming the opposing arguer does the same thing
+(C) arguing that an argument should be rejected because the source of the argument
+(D) trying to get someone else to agree to a claim only by arousing that person's feelings about the subject",(D) Getting agreement only by arousing the person's feelings about the subject.,"The answer is (D): trying to get someone to agree to a claim only by arousing their feelings about the subject. Instead of offering evidence, the arguer relies on fear, pity, anger or pride to win agreement. Making an opponent's argument look ridiculous is a different fallacy, ridicule.",,,,,
+a2-169,"Traditionally art has been defined as _____.
+Options:
+(A) wealth
+(B) utility
+(C) representation
+(D) well being",(C) Representation.,"Sahi uttar (C) hai, niroopan. Plato aur Arastu ke samay se kala ko paaramparik roop se anukaran, yaani yathaarth ki nakal ya niroopan, maana jaata raha. Aadhunik yug mein is paribhaasha ko vyaapak chunauti mili, khaaskar amoort kala se, jo kisi pehchaanne yogya vastu ka chitran nahi karti.",,,,,
+a2-171,"You hear that the United States has a negative balance in the current account. With this information we conclude that
+Options:
+(A) there is a trade deficit.
+(B) there is a capital account deficit.
+(C) there is a capital account surplus.
+(D) more U.S. dollars are being sent abroad than foreign currencies are being sent to the United States.",(C) There is a capital account surplus.,"Sahi answer (C) hai: capital account surplus hai. Balance of payments mein current account aur capital and financial account ka sum, statistical error ko chhodkar, zero hona chahiye. Isliye current account deficit foreign capital ke net inflow se balance hota hai, jo capital account surplus hai.",,,,,
+a2-177,"Now you are a machine learning engineer. Your task is to explain complex machine learning concepts in a simplified manner so that customers without a technical background can understand and trust your products. Let's start with the question: ""What is a language model? Is it trained using labeled or unlabelled data?""",,"A language model is a computer program that has learned how language works by reading a huge amount of text. Its basic skill is predicting which word is likely to come next in a sentence, and by doing this over and over it can answer questions, summarise documents or write emails. It is mostly trained on unlabelled data: ordinary text from books and websites, where the ""answer"" for each step is simply the next word already in the text, so no one has to label it by hand. Many models are then fine-tuned with a smaller amount of labelled or human-rated examples to make them more helpful and safe.",,,,,
+a2-179,"Buffer-overflow may remain as a bug in apps if __________ are not done fully.
+Options:
+(A) boundary hacks
+(B) memory checks
+(C) boundary checks
+(D) buffer checks",(C) Boundary checks.,"Sahi answer (C) hai, boundary checks. Buffer overflow tab hota hai jab koi program kisi buffer mein uski capacity se zyada data write kar deta hai, jo adjacent memory mein spill ho jaata hai. Ye check karna ki har write buffer ke bounds ke andar rahe, is bug ko prevent karta hai.",,,,,
+a2-182,"Levallois technology involved a shift in emphasis from:
+Options:
+(A) producing core tools to producing flakes.
+(B) producing pottery to producing clothing.
+(C) producing arrows to producing spear points.
+(D) larger, duller axes to smaller, sharper ones.",(A) From producing core tools to producing flakes.,"सही उत्तर (A) है: क्रोड औज़ार बनाने से शल्क बनाने की ओर। लेवालुआ तकनीक में पत्थर के क्रोड को पहले से सावधानी से आकार दिया जाता था, ताकि उस पर चोट करके पूर्वानुमानित आकार और रूप का शल्क अलग किया जा सके। क्रोड को हस्त-कुठार में बदलने के बजाय वह शल्क ही औज़ार बन जाता था।",,,,,
+a2-185,"You can see a beautiful red house to your left and a hypnotic greenhouse to your right, an attractive heated pink place in the front. So, where is the White House?",,"White House Washington, D.C. mein 1600 Pennsylvania Avenue par hai; ye United States ke President ka official residence hai. Question mein bataye gaye houses, ek red house, ek greenhouse aur ek heated pink place, bas aas-paas ki buildings ka playful description hain aur koi real clue nahi dete. Ye question ek riddle hai, jo is baat par based hai ki ""White House"" naam scene mein ek aur coloured house jaisa lagta hai.",,,,,
+a2-186,"Describe a vivid and unique character, using strong imagery and creative language. Please answer in fewer than two paragraphs.",,"Old Mrs. Kapoor sold umbrellas on a corner where it never seemed to rain. She was as small and wrinkled as a dried apricot, but her eyes flashed like wet pebbles in sunlight. Her shawl was a patchwork of forty colours, each square stitched, she claimed, from a different country she had never visited. She laughed in sudden bursts, like a kettle boiling over, and she knew every passer-by's secret before they told it. Children swore that her umbrellas opened onto other skies: one full of snow, one of falling petals, one of stars.",,,,,
+a2-187,"On which planet in our solar system can you find the Great Red Spot?
+Options:
+(A) Venus
+(B) Mars
+(C) Jupiter
+(D) Saturn",(C) Jupiter.,"Sahi uttar (C) hai, Brihaspati. Mahaan Laal Dhabba Brihaspati ke vaayumandal mein ek vishaal toofaan hai, jo prithvi se bhi bada hai aur 150 se adhik varshon se dekha ja raha hai. Yah Shukra, Mangal ya Shani par nahi paaya jaata.",,,,,
+a2-190,"Abraham Maslow proposed the idea that some motives are more imperative to survival than others. Which of the following approaches expresses this?
+Options:
+(A) Homeostatic regulation
+(B) Goal-setting
+(C) Expectancy-value
+(D) Hierarchy of needs",(D) Hierarchy of needs.,"Sahi uttar (D) hai, aavashyaktaon ka padaanukram. Maslow ne maanav aavashyaktaon ko staron mein vyavasthit kiya, jismein bhojan aur paani jaisi shaareerik aavashyaktaayein sabse neeche hain, phir suraksha, apnaapan, sammaan aur ant mein aatm-siddhi. Aamtaur par nichli, adhik buniyaadi aavashyaktaayein poori hone ke baad hi oonchi aavashyaktaayein vyavahaar ko prerit karti hain.",,,,,
+a2-193,Describe five principles for evaluating the digital transformation of the Indian economy.,,"भारत के डिजिटल परिवर्तन के मूल्यांकन में पाँच सिद्धांत मार्गदर्शन कर सकते हैं। पहला, पहुँच: मापें कि लोग डिजिटल सेवाओं का कितने व्यापक रूप से उपयोग कर सकते हैं, जिसमें इंटरनेट का विस्तार, स्मार्टफ़ोन का स्वामित्व और शहरी तथा ग्रामीण क्षेत्रों के बीच का अंतर शामिल है। दूसरा, समावेशन: जाँचें कि महिलाओं, गरीबों और बुज़ुर्गों को वास्तव में लाभ मिलता है या नहीं, जैसे आधार से जुड़ी सेवाओं और UPI भुगतानों के माध्यम से। तीसरा, आर्थिक प्रभाव: उत्पादकता, व्यवसायों के औपचारिकीकरण, रोज़गार और स्टार्ट-अप की वृद्धि पर प्रभाव का आकलन करें। चौथा, सुरक्षा और भरोसा: डेटा संरक्षण, निजता और ऑनलाइन धोखाधड़ी के स्तर की जाँच करें। पाँचवाँ, स्थिरता और शासन: पूछें कि डिजिटल सार्वजनिक बुनियादी ढाँचा विश्वसनीय, खुला, अच्छी तरह विनियमित है और समय के साथ सुधरता रह सकता है या नहीं।",,,,,
+a2-195,"When an appeal is made to the Supreme Court, the court usually
+Options:
+(A) refuses to hear the appeal
+(B) declares a mistrial
+(C) orders the lower court to retry the case
+(D) rules in favor of the defendant",(A) It usually refuses to hear the appeal.,"सही उत्तर (A) है: यह आमतौर पर अपील सुनने से मना कर देता है। सर्वोच्च न्यायालय को हर वर्ष कई हज़ार याचिकाएँ मिलती हैं, लेकिन वह 100 से कम मामलों में, आमतौर पर लगभग 60 से 70 मामलों में, सुनवाई स्वीकार करता है। जब वह उत्प्रेषण रिट से इनकार करता है, तो निचली अदालत का निर्णय कायम रहता है।",,,,,
+a2-196,"If both parents are affected with the same autosomal recessive disorder then the probability that each of their children will be affected equals ___.
+Options:
+(A) 1 in 4
+(B) 1 in 2
+(C) 2 in 3
+(D) 1",(D) 1; every child is affected.,"Sahi answer (D) hai: probability 1 hai. Autosomal recessive disorder se affected person mein disease allele ki do copies hoti hain. Agar dono parents affected hain, toh dono sirf disease allele hi pass kar sakte hain, isliye har bachche ko do copies milti hain aur woh affected hota hai.",,,,,
+a2-201,"What was a main organizational change proposed by the 9/11 Commission with regard to the U.S. intelligence community?
+Options:
+(A) Creation of the Department of Homeland Security
+(B) Moving the Department of Defense Intelligence Agencies to the CIA for better coordination
+(C) Creation of the National Intelligence Director
+(D) Moving the domestic intelligence component of the FBI to the CIA",(C) Creation of a National Intelligence Director.,"Sahi answer (C) hai: National Intelligence Director ka post create karna. 9/11 Commission ne paaya ki kai intelligence agencies aapas mein information theek se share nahi karti thi, isliye usne unhe oversee aur coordinate karne ke liye ek single official recommend kiya. Congress ne 2004 mein Director of National Intelligence ka post create kiya.",,,,,
+a2-208,"Abraham Maslow proposed the idea that some motives are more imperative to survival than others. Which of the following approaches expresses this?
+Options:
+(A) Homeostatic regulation
+(B) Goal-setting
+(C) Expectancy-value
+(D) Hierarchy of needs",(D) Hierarchy of needs.,"Sahi answer (D) hai, hierarchy of needs. Maslow ne human needs ko levels mein arrange kiya, jismein food aur water jaisi physiological needs sabse neeche hain, phir safety, belonging, esteem aur last mein self-actualisation. Usually lower, zyada basic needs poori hone ke baad hi higher needs behaviour ko motivate karti hain.",,,,,
+a2-209,"Let x = 1. What is x << 3 in Python 3?
+Options:
+(A) 1
+(B) 3
+(C) 8
+(D) 16",(C) 8.,"Sahi uttar (C) hai, 8. << sankaarak kisi sankhya ke bits ko baayin or khiskaata hai, aur har khiskaav sankhya ko 2 se guna kar deta hai. 1 (dviaadhaari 1) ko teen sthaan baayin or khiskaane par dviaadhaari 1000 milta hai, jo 8 hai.",,,,,
+a2-213,Consider a satellite that is in a circular orbit around the Earth. The speed of the satellite decreases. What will happen to the satellite's orbital radius and period of revolution? Please justify your answer using principles of physics.,,"Circular orbit mein satellite ke liye gravity hi centripetal force provide karti hai, isliye GMm/r² = mv²/r, jisse v = √(GM/r) milta hai. Toh orbital speed radius ke square root ke inversely related hai: circular orbit mein slowly move karne wale satellite ko Earth se zyada door hona chahiye. Isliye agar satellite ki speed decrease hoti hai aur woh circular orbit mein rehta hai, toh uska orbital radius badh jaata hai. Uska period, T = 2πr/v, bhi badhta hai, kyunki path lamba ho jaata hai jabki speed kam hoti hai; ye Kepler ke third law, T² ∝ r³, se match karta hai.",,,,,
+a2-214,"What is dualism?
+Options:
+(A) Dualism suggests that international and domestic law are part of a unified legal system
+(B) Under dualism, international and domestic laws comprise distinct legal Systems
+(C) Dualism suggests that international and domestic law are distinct but equal in hierarchy
+(D) Dualism suggests that international and domestic law are distinct legal systems whereby domestic law always prevails",(B) International and domestic law are distinct legal systems.,"Sahi answer (B) hai. Dualism ke according international law aur domestic law do separate legal systems hain, isliye koi treaty kisi state ke andar tab tak effective nahi hoti jab tak national legislation use domestic law mein transform na kar de. Ye monism se different hai, jo dono ko ek hi legal order ka part maanta hai.",,,,,
+a2-215,"On which planet in our solar system can you find the Great Red Spot?
+Options:
+(A) Venus
+(B) Mars
+(C) Jupiter
+(D) Saturn",(C) Jupiter.,"Sahi answer (C) hai, Jupiter. Great Red Spot Jupiter ke atmosphere mein ek huge storm hai, jo Earth se bhi bada hai aur 150 se zyada saalon se observe kiya ja raha hai. Ye Venus, Mars ya Saturn par nahi milta.",,,,,
+a2-217,"The fallacy of appeal to emotions consists of
+Options:
+(A) trying to make an opponent's argument seem ridiculous
+(B) defending wrongdoing by claiming the opposing arguer does the same thing
+(C) arguing that an argument should be rejected because the source of the argument
+(D) trying to get someone else to agree to a claim only by arousing that person's feelings about the subject",(D) Getting agreement only by arousing the person's feelings about the subject.,"सही उत्तर (D) है: किसी व्यक्ति को केवल विषय के बारे में उसकी भावनाएँ भड़काकर किसी दावे से सहमत कराने की कोशिश करना। प्रमाण देने के बजाय तर्क देने वाला सहमति पाने के लिए डर, दया, क्रोध या गर्व का सहारा लेता है। विरोधी के तर्क को हास्यास्पद दिखाना एक अलग दोष है, उपहास।",,,,,
+a2-220,"If both parents are affected with the same autosomal recessive disorder then the probability that each of their children will be affected equals ___.
+Options:
+(A) 1 in 4
+(B) 1 in 2
+(C) 2 in 3
+(D) 1",(D) 1; every child is affected.,"The answer is (D): the probability is 1. A person affected by an autosomal recessive disorder carries two copies of the disease allele. If both parents are affected, each can pass on only the disease allele, so every child inherits two copies and is affected.",,,,,
+a2-228,"The theological term homoousios means which of the following?
+Options:
+(A) of a similar substance
+(B) of the same substance
+(C) of like substance
+(D) of human substance",(B) Of the same substance.,"Sahi answer (B) hai: ""same substance ka"". Ye term 325 CE mein Council of Nicaea mein ye kehne ke liye adopt kiya gaya tha ki Son aur Father same essence ke hain. Iska contrast homoiousios yaani ""similar substance ka"" se kiya gaya, jis view ko council ne reject kar diya.",,,,,
+a2-229,"Imagine you are participating in a race with a group of people. If you have just overtaken the second person, what's your current position? Where is the person you just overtook?",,"अब आप दूसरे स्थान पर हैं। दूसरे स्थान वाले व्यक्ति से आगे निकलने का मतलब है कि आपने उसकी जगह ले ली है, पहला स्थान नहीं, क्योंकि सबसे आगे वाला व्यक्ति अब भी आपसे आगे है। जिस व्यक्ति से आप अभी आगे निकले, वह एक स्थान पीछे खिसक गया है और अब तीसरे स्थान पर है।",,,,,
+a2-231,"One morning after sunrise, Suresh was standing facing a pole. The shadow of the pole fell exactly to his right. Can you tell me the direction towards which the shadow was pointing - east, south, west, or north? Explain your reasoning steps.",,"The shadow was pointing west. In the morning the Sun rises in the east, so shadows fall towards the west. Since the shadow fell exactly to Suresh's right, west was on his right. A person with west on their right is facing south, so Suresh was facing south and the shadow pointed west.",,,,,
+a2-232,"What is a major limitation of using BMI (body mass index) as a method of body fat measurements?
+Options:
+(A) It is not an accurate measure for average people
+(B) It is more accurate than height-weight tables
+(C) It does not distinguish between fat and fat free mass
+(D) All of the above",(C) It does not distinguish between fat and fat-free mass.,"सही उत्तर (C) है: BMI वसा और वसा-रहित द्रव्यमान में अंतर नहीं करता। इसकी गणना केवल वज़न और लंबाई से होती है, इसलिए एक मांसल खिलाड़ी को कम शारीरिक वसा होने के बावजूद अधिक वज़न वाला माना जा सकता है। यह इस बारे में भी कुछ नहीं बताता कि वसा शरीर में कहाँ जमा है।",,,,,
+a2-236,"Where is the sinoatrial node located?
+Options:
+(A) Between the left atrium and the left ventricle
+(B) Between the right atrium and the right ventricle
+(C) In the upper wall of the right atrium
+(D) In the upper wall of the left ventricle",(C) In the upper wall of the right atrium.,"सही उत्तर (C) है: दाएँ अलिंद की ऊपरी दीवार में, ऊर्ध्व महाशिरा के मुख के पास। शिरा-अलिंद पर्व हृदय का प्राकृतिक गति-प्रेरक है, जो हर धड़कन शुरू करने वाले विद्युत आवेग उत्पन्न करता है। अलिंदों और निलयों के बीच वाला पर्व अलिंद-निलय पर्व कहलाता है।",,,,,
+a2-237,"What is a mohel?
+Options:
+(A) A ritual circumciser
+(B) A type of oil lame
+(C) A teacher
+(D) A covenant",(A) A ritual circumciser.,"सही उत्तर (A) है: मोहेल एक धार्मिक खतना करने वाला व्यक्ति है। यहूदी धर्म में मोहेल को ब्रित मिलाह करने का प्रशिक्षण दिया जाता है, जो जन्म के आठवें दिन बालक का खतना है। यह संस्कार ईश्वर और अब्राहम के बीच की वाचा का प्रतीक है, लेकिन मोहेल शब्द व्यक्ति को दर्शाता है, वाचा को नहीं।",,,,,
+a2-239,"Now you are a machine learning engineer. Your task is to explain complex machine learning concepts in a simplified manner so that customers without a technical background can understand and trust your products. Let's start with the question: ""What is a language model? Is it trained using labeled or unlabelled data?""",,"भाषा मॉडल एक कंप्यूटर प्रोग्राम है जिसने बहुत बड़ी मात्रा में पाठ पढ़कर सीखा है कि भाषा कैसे काम करती है। उसका बुनियादी कौशल यह अनुमान लगाना है कि किसी वाक्य में अगला शब्द कौन-सा होगा, और यह बार-बार करके वह प्रश्नों के उत्तर दे सकता है, दस्तावेज़ों का सारांश बना सकता है या ईमेल लिख सकता है। इसे मुख्य रूप से बिना लेबल वाले आँकड़ों पर प्रशिक्षित किया जाता है: किताबों और वेबसाइटों का साधारण पाठ, जहाँ हर चरण का ""उत्तर"" बस पाठ में पहले से मौजूद अगला शब्द होता है, इसलिए किसी को हाथ से लेबल लगाने की ज़रूरत नहीं पड़ती। इसके बाद कई मॉडलों को कम संख्या में लेबल वाले या मनुष्यों द्वारा आँके गए उदाहरणों से परिष्कृत किया जाता है, ताकि वे अधिक मददगार और सुरक्षित बनें।",,,,,
+a2-241,Describe five principles for evaluating the digital transformation of the Indian economy.,,"Bhaarat ke digital parivartan ke moolyaankan mein paanch siddhaant maargdarshan kar sakte hain. Pehla, pahunch: maapein ki log digital sevaaon ka kitne vyaapak roop se upyog kar sakte hain, jismein internet ka vistaar, smartphone ka swaamitva aur shahari tatha graameen kshetron ke beech ka antar shaamil hai. Doosra, samaaveshan: jaanchein ki mahilaon, gareebon aur buzurgon ko vaastav mein laabh milta hai ya nahi, jaise Aadhaar se judi sevaaon aur UPI bhugtaanon ke maadhyam se. Teesra, aarthik prabhaav: utpaadakta, vyavasaayon ke aupchaarikeekaran, rozgaar aur start-up ki vriddhi par prabhaav ka aakalan karein. Chautha, suraksha aur bharosa: data sanrakshan, nijta aur online dhokhaadhadi ke star ki jaanch karein. Paanchvaan, sthirta aur shaasan: poochhein ki digital saarvajanik buniyaadi dhaancha vishvasaneeya, khula, achchhi tarah viniyamit hai aur samay ke saath sudharta reh sakta hai ya nahi.",,,,,
+a2-242,"In vertebrate embryos, which of the following developmental processes most directly results in the formation of the three primary germ layers?
+Options:
+(A) Neurulation
+(B) Blastula formation
+(C) Cleavage
+(D) Gastrulation","(D) Gastrulation forms the ectoderm, mesoderm and endoderm.","The answer is (D), gastrulation. During gastrulation, cells of the blastula move inward and rearrange to form the three primary germ layers: ectoderm, mesoderm and endoderm. Cleavage and blastula formation come earlier, and neurulation happens after the germ layers already exist.",,,,,
+a2-243,"A common nuclear fission reactor
+Options:
+(A) heats water
+(B) generates electricity directly
+(C) gets energy from nothing
+(D) is a major polluter of the atmosphere",(A) It heats water; the steam drives turbines and generators.,"Sahi answer (A) hai, ye water heat karta hai. Uranium ke fission se heat nikalti hai jo paani ko steam mein badal deti hai, aur ye steam electric generators se connected turbines ko spin karti hai. Reactor directly electricity generate nahi karta, nothing se energy nahi leta, aur normal operation mein air pollution ka major source nahi hai.",,,,,
+a2-250,Now you are a geography expert. Your task is to explain complex geographical concepts simply so that ordinary people can understand them. Let's begin with this question: 'What is the extent of the Indian subcontinent? Which major geographical features does it include?',,"भारतीय उपमहाद्वीप दक्षिण एशिया का विशाल भूभाग है, जो मुख्य रूप से भारतीय विवर्तनिक प्लेट पर स्थित है। इसमें आमतौर पर भारत, पाकिस्तान, बांग्लादेश, नेपाल, भूटान और श्रीलंका शामिल होते हैं, और अक्सर मालदीव भी। इसके उत्तर में हिमालय और अन्य पर्वत श्रेणियाँ हैं, और बाकी ओर अरब सागर, बंगाल की खाड़ी और हिंद महासागर। इसकी मुख्य विशेषताएँ हैं: दुनिया के सबसे ऊँचे पर्वत हिमालय; सिंधु, गंगा और ब्रह्मपुत्र से सिंचित उपजाऊ सिंधु-गंगा का मैदान; पश्चिम में थार मरुस्थल; दक्षिण में दक्कन का पठार, जिसके दोनों ओर पश्चिमी और पूर्वी घाट हैं; और द्वीपों सहित लंबी तटरेखाएँ।",,,,,
+a2-252,"You hear that the United States has a negative balance in the current account. With this information we conclude that
+Options:
+(A) there is a trade deficit.
+(B) there is a capital account deficit.
+(C) there is a capital account surplus.
+(D) more U.S. dollars are being sent abroad than foreign currencies are being sent to the United States.",(C) There is a capital account surplus.,"The answer is (C): there is a capital account surplus. In the balance of payments, the current account and the capital and financial account must sum to zero, apart from statistical error. A current account deficit is therefore matched by a net inflow of foreign capital, which is a capital account surplus.",,,,,
+a2-254,"Traditionally art has been defined as _____.
+Options:
+(A) wealth
+(B) utility
+(C) representation
+(D) well being",(C) Representation.,"Sahi answer (C) hai, representation. Plato aur Aristotle ke time se art ko traditionally mimesis, yaani reality ki imitation ya representation, maana jaata raha. Modern era mein is definition ko widely challenge kiya gaya, especially abstract art se, jo kisi recognisable cheez ko represent nahi karti.",,,,,
+a2-261,"Write a descriptive paragraph about the effects of the monsoon in India. Include sensory details such as the sound of rain, the earthy smell of wet soil and the greenery spreading all around, and also explain its effect on daily life and agriculture.",,"When the monsoon finally breaks over India, the first drops drum on tin roofs like a thousand tiny hands, and soon the rain roars down in silver sheets. The parched earth releases its sweet, earthy fragrance, the smell of wet soil that everyone waits for all summer. Within days, brown fields and dusty hills turn a vivid green, and frogs and peacocks fill the evenings with their calls. Daily life changes too: streets flood, trains run late and umbrellas bloom everywhere, while children splash happily through puddles. For farmers, the rain is life itself, filling ponds and wells and allowing the sowing of rice, cotton and other kharif crops that feed the nation.",,,,,
+a2-263,"What is the main problem associated with landfills in India, and what effective management practices and policies can be implemented to deal with it? In addition, can community participation and awareness campaigns make any special contribution in this direction?",,"मुख्य समस्या यह है कि भारत के भराव क्षेत्रों में भारी मात्रा में मिला-जुला, बिना छँटा कचरा पहुँचता है, इसलिए अधिकांश शहरी कूड़ाघर अभियांत्रिकी से बने भराव क्षेत्रों के बजाय उफनते खुले स्थल हैं। सड़ता हुआ जैविक कचरा मीथेन छोड़ता है, जिससे बार-बार आग लगती है, और रिसाव का दूषित पानी भूजल में मिल जाता है, जिससे आसपास के निवासियों का स्वास्थ्य प्रभावित होता है। प्रभावी समाधान स्रोत पर ही कचरे को गीले, सूखे और खतरनाक कचरे में अलग करने से शुरू होते हैं, जैसा कि ठोस अपशिष्ट प्रबंधन नियम, 2016 में अनिवार्य है। गीले कचरे से खाद या जैव गैस बनाई जा सकती है, सूखे कचरे का पुनर्चक्रण किया जा सकता है, और पुराने कूड़े के ढेर जैव-खनन से साफ़ किए जा सकते हैं। सामुदायिक भागीदारी बहुत ज़रूरी है: स्वच्छ भारत मिशन जैसे जागरूकता अभियान घरों की आदतें बदलते हैं और कचरा छँटाई तथा पुनर्चक्रण को व्यवहार में सफल बनाते हैं।",,,,,
+a2-265,"When an appeal is made to the Supreme Court, the court usually
+Options:
+(A) refuses to hear the appeal
+(B) declares a mistrial
+(C) orders the lower court to retry the case
+(D) rules in favor of the defendant",(A) It usually refuses to hear the appeal.,"Sahi uttar (A) hai: yah aamtaur par apeel sunne se mana kar deta hai. Sarvochch nyaayalay ko har varsh kai hazaar yaachikaayein milti hain, lekin vah 100 se kam maamlon mein, aamtaur par lagbhag 60 se 70 maamlon mein, sunvaai sveekaar karta hai. Jab vah utpreshan rit se inkaar karta hai, to nichli adaalat ka nirnay kaayam rehta hai.",,,,,
+a2-266,"Which of the following fallacies happen if someone argues that you are a reasonable and intelligent person, so of course you understand his claim is true?
+Options:
+(A) significance
+(B) argument from authority
+(C) appeal to pride
+(D) slippery slope",(C) Appeal to pride.,"Sahi uttar (C) hai, gaurav-bhaavna ka aahvaan. Tark dene waala aapko samajhdaar aur buddhimaan bataakar aapki chaaploosi karta hai, taaki aap apni us chhavi ko bachaane ke liye daava maan lein, na ki kisi pramaan ke kaaran. Yah bhaavnaaon ke aahvaan ka ek roop hai, praadhikaar par aadhaarit tark nahi.",,,,,
+a2-268,"Draft a professional email seeking your supervisor's feedback on the 'Quarterly Financial Report' you prepared. Ask specifically about the data analysis, presentation style, and the clarity of conclusions drawn. Keep the email short and to the point.",,"Vishay: Traimaasik Vitteeya Report par pratikriya ka anurodh. Aadaraneeya Sushri Sharma, maine traimaasik vitteeya report poori kar li hai aur ise vitarit karne se pehle aapki pratikriya jaanna chaahoonga. Vishesh roop se, kya aap bata sakti hain ki aankadon ka vishleshan thos hai ya nahi, prastuti ki shaili aur aarekh spasht aur peshevar hain ya nahi, aur nishkarsh aankadon se spasht roop se nikalte hain ya nahi? Shukravaar tak aapki koi bhi tippani mil jaaye to main aabhaari rahoonga. Aapke samay ke liye dhanyavaad. Saadar, Rahul",,,,,
+a2-269,"Buffer-overflow may remain as a bug in apps if __________ are not done fully.
+Options:
+(A) boundary hacks
+(B) memory checks
+(C) boundary checks
+(D) buffer checks",(C) Boundary checks.,"The answer is (C), boundary checks. A buffer overflow happens when a program writes more data into a buffer than it can hold, spilling into adjacent memory. Checking that every write stays within the buffer's bounds prevents this bug.",,,,,
+a2-271,"You can see a beautiful red house to your left and a hypnotic greenhouse to your right, an attractive heated pink place in the front. So, where is the White House?",,"The White House is in Washington, D.C., at 1600 Pennsylvania Avenue; it is the official residence of the President of the United States. The houses described in the question, a red house, a greenhouse and a heated pink place, are just a playful description of nearby buildings and give no real clue. The question is a riddle that relies on the name ""White House"" sounding like one more coloured house in the scene.",,,,,
+a2-272,"Which would be the easiest way to burn a copper penny?
+Options:
+(A) Hold the copper penny with crucible tongs, and heat strongly in the flame of a Bunsen burner.
+(B) Use the method in (A), but use an oxyacetylene torch to reach a higher temperature.
+(C) Grind the copper penny into very small, dust-sized particles, and spray the particles into a Bunsen burner flame.
+(D) Dissolve the copper penny in acid, precipitate the hydroxide, and heat in a Bunsen burner flame to make the oxide.",(C) Grind it to dust and spray it into the flame; the large surface area lets it burn.,"Sahi answer (C) hai. Penny ko fine dust mein grind karne se uska surface area bahut badh jaata hai, jisse ek saath kahin zyada copper atoms oxygen ke contact mein aate hain aur particles normal Bunsen flame mein jaldi jal jaate hain. Solid penny bahut jaldi heat lose kar deti hai, isliye hotter torch se bhi nahi jalti, aur option (D) metal ko burn karne ke bajaye sirf chemically copper oxide banata hai.",,,,,
+a2-274,"1 F is theoretically equal to
+Options:
+(A) 1 ohm of resistance
+(B) ratio of 1 V to 1 C
+(C) ratio of 1 C to 1 V
+(D) none of these",(C) The ratio of 1 C to 1 V.,"Sahi uttar (C) hai: 1 coulomb aur 1 volt ka anupaat. Dhaarita ko C = Q/V se paribhaashit kiya jaata hai, isliye kisi sandhaaritra ki dhaarita ek farad hoti hai yadi us par ek volt lagaane par vah ek coulomb aavesh sanchit kare. Ohm pratirodh ki ikaai hai, dhaarita ki nahi.",,,,,
+a2-275,"A student pushes a puck across a table, moving it from position x = 0 to position x = 0.2 m. After he lets go, the puck continues to travel across the table, coming to rest at position x = 1.2 m. When the puck is at position x = 1.0 m, which of the following is a correct assertion about the net force on the puck?
+Options:
+(A) The net force is in the negative direction, because the puck is moving in the positive direction but slowing down.
+(B) The net force is down, because the puck is near the Earth, where gravitational acceleration is 10 m/s^2 downward.
+(C) The net force is in the positive direction, because the student’s push caused the puck to speed up in the positive direction.
+(D) The net force is zero, because the student’s push in the positive direction must equal the force of friction in the negative direction.","(A) Negative direction, because the puck is slowing down.","Sahi uttar (A) hai: kul bal rinaatmak disha mein hai. x = 1.0 m par chhaatra ab dhakka nahi de raha, aur puck dhanaatmak disha mein chalte hue dheema ho raha hai. Dheema hone ka arth hai ki uska tvaran, aur isliye kul bal (gharshan), uski gati ki vipreet disha mein hai.",,,,,
+a2-276,"The units for the rate of a chemical reaction are
+Options:
+(A) L2 mol-2 s-1
+(B) mol L-1 s-1
+(C) L mol-1 s-1
+(D) it depends on the particular reaction",(B) mol L⁻¹ s⁻¹.,"Sahi answer (B) hai, mol L⁻¹ s⁻¹. Reaction rate kisi reactant ya product ke concentration mein per unit time hone wala change hai, aur concentration moles per litre mein measure hota hai. Rate constant ki units reaction order par depend karti hain, lekin rate ki units nahi.",,,,,
+a2-282,"Theories of racialized discourse suggest that:
+Options:
+(A) race is an objective way of categorizing people on biological grounds
+(B) the idea of race is socially constructed through powerful ideologies
+(C) race relations in Britain and America can be traced back to colonial times
+(D) people choose their racial identity and this becomes fixed",(B) The idea of race is socially constructed through powerful ideologies.,"सही उत्तर (B) है: नस्ल का विचार शक्तिशाली विचारधाराओं के ज़रिए सामाजिक रूप से निर्मित होता है। ये सिद्धांत तर्क देते हैं कि नस्लीय श्रेणियाँ प्राकृतिक जैविक विभाजन नहीं हैं, बल्कि भाषा, संचार माध्यमों और राजनीतिक विमर्श के माध्यम से बनाई और बनाए रखी जाती हैं। ऐसा विमर्श सामाजिक अंतरों को प्राकृतिक बताकर असमानता को उचित ठहरा सकता है।",,,,,
+a2-283,"Describe a vivid and unique character, using strong imagery and creative language. Please answer in fewer than two paragraphs.",,"बूढ़ी श्रीमती कपूर एक ऐसे नुक्कड़ पर छाते बेचती थीं जहाँ कभी बारिश होती ही नहीं लगती थी। वे सूखी खुबानी जितनी छोटी और झुर्रीदार थीं, लेकिन उनकी आँखें धूप में भीगे कंकड़ों की तरह चमकती थीं। उनकी शॉल चालीस रंगों के टुकड़ों को जोड़कर बनी थी, और उनका दावा था कि हर चौकोर टुकड़ा किसी ऐसे देश से सिला गया था जहाँ वे कभी नहीं गई थीं। वे अचानक ठहाके लगाकर हँसती थीं, जैसे उबलती केतली छलक पड़े, और हर राहगीर का राज़ उसके बताने से पहले ही जान लेती थीं। बच्चे कसम खाते थे कि उनके छाते दूसरे आसमानों में खुलते हैं: एक बर्फ़ से भरा, एक गिरती पंखुड़ियों से, और एक तारों से।",,,,,
+a2-286,"Photosynthesis is a vital process for life on Earth. Could you outline the two main stages of photosynthesis, including where they take place within the chloroplast, and the primary inputs and outputs for each stage?",,"Photosynthesis has two main stages. The light-dependent reactions take place in the thylakoid membranes of the chloroplast. Their inputs are light energy, water and the carriers ADP and NADP+, and their outputs are oxygen, ATP and NADPH. The light-independent reactions, or Calvin cycle, take place in the stroma. They use carbon dioxide together with the ATP and NADPH from the first stage, and produce glucose (via the sugar G3P) while returning ADP and NADP+ to the light reactions.",,,,,
+a2-287,"When an influenza virus enters a cell, it immediately starts to do which of the following?
+Options:
+(A) Incorporate viral DNA into the host cell’s chromosome
+(B) Destroy the host cell’s transcriptional machinery
+(C) Replicate its genetic material and synthesize viral proteins
+(D) Use a viral copy of reverse transcriptase to manufacture viral DNA",(C) Replicate its genetic material and synthesize viral proteins.,"The answer is (C): it replicates its genetic material and synthesizes viral proteins. Influenza is an RNA virus that copies its RNA genome with its own RNA polymerase and uses the host's ribosomes to make viral proteins. It is not a retrovirus, so it does not make DNA with reverse transcriptase or integrate into the host chromosome.",,,,,
+a2-288,Discuss the concept of solidarity in human societies. Analyse how collective action and mutual support help humans overcome challenges and achieve common goals.,,"Solidarity is the sense of unity and shared responsibility that binds members of a group, leading them to support one another. The sociologist Émile Durkheim distinguished mechanical solidarity, based on similarity in small traditional communities, from organic solidarity, based on interdependence in complex modern societies. Collective action turns this feeling into results: people pooling effort can achieve what individuals cannot, from villagers building a well together to workers forming unions or citizens joining movements for independence or civil rights. Mutual support also helps people survive crises such as floods or pandemics, through shared resources, volunteering and care. In this way solidarity builds trust and resilience, making common goals reachable.",,,,,
+a2-298,"Levallois technology involved a shift in emphasis from:
+Options:
+(A) producing core tools to producing flakes.
+(B) producing pottery to producing clothing.
+(C) producing arrows to producing spear points.
+(D) larger, duller axes to smaller, sharper ones.",(A) From producing core tools to producing flakes.,"Sahi uttar (A) hai: krod auzaar banaane se shalk banaane ki or. Levallois takneek mein patthar ke krod ko pehle se saavdhaani se aakaar diya jaata tha, taaki us par chot karke poorvaanumaanit aakaar aur roop ka shalk alag kiya ja sake. Krod ko hast-kuthaar mein badalne ke bajaay vah shalk hi auzaar ban jaata tha.",,,,,
+a2-299,"Which language family contains Italian, Spanish, Portuguese, and Romanian?
+Options:
+(A) European
+(B) Slavic
+(C) Germanic
+(D) Romance",(D) Romance; these languages descend from Latin.,"सही उत्तर (D) है, रोमांस भाषा परिवार। इतालवी, स्पेनी, पुर्तगाली और रोमानियाई, ये सभी भाषाएँ वल्गर लैटिन से विकसित हुईं, जो रोमन साम्राज्य में बोली जाने वाली आम बोलचाल की लैटिन थी। स्लाविक और जर्मेनिक भारोपीय परिवार की अलग शाखाएँ हैं, और 'यूरोपीय' कोई भाषा परिवार नहीं है।",,,,,
+a2-300,"Which of the following best describes the location where the carotid pulse can be found?
+Options:
+(A) In front of the ears and just above eye level
+(B) In the antecubital space
+(C) In the middle of the groin
+(D) On the anterior side of the neck","(D) On the anterior side of the neck, beside the trachea.","Sahi uttar (D) hai, gardan ke agra bhaag par. Carotid naadi gardan ke saamne, shvaasnali ke theek bagal mein aur jabde ke kon ke neeche mehsoos hoti hai, jahaan se saamaanya carotid dhamani guzarti hai. Baaki vikalp temporal, brachial aur femoral naadi ke sthaanon ka varnan karte hain.",,,,,
+a2-302,Describe five principles for evaluating the digital transformation of the Indian economy.,,"India ke digital transformation ko evaluate karne mein paanch principles guide kar sakte hain. Pehla, access: measure karein ki log digital services ko kitna widely use kar sakte hain, jismein internet coverage, smartphone ownership aur urban aur rural areas ke beech ka gap shaamil hai. Doosra, inclusion: check karein ki women, poor aur older log actually benefit karte hain ya nahi, jaise Aadhaar-linked services aur UPI payments ke through. Teesra, economic impact: productivity, businesses ke formalisation, jobs aur start-ups ki growth par effects assess karein. Chautha, security aur trust: data protection, privacy aur online fraud ke level ko examine karein. Paanchvaan, sustainability aur governance: poochhein ki digital public infrastructure reliable, open, well regulated hai aur time ke saath improve hota reh sakta hai ya nahi.",,,,,
+a2-303,"The units for the rate of a chemical reaction are
+Options:
+(A) L2 mol-2 s-1
+(B) mol L-1 s-1
+(C) L mol-1 s-1
+(D) it depends on the particular reaction",(B) mol L⁻¹ s⁻¹.,"The answer is (B), mol L⁻¹ s⁻¹. Reaction rate is the change in concentration of a reactant or product per unit time, and concentration is measured in moles per litre. The units of the rate constant depend on the reaction order, but the units of the rate itself do not.",,,,,
+a2-309,"Where is the sinoatrial node located?
+Options:
+(A) Between the left atrium and the left ventricle
+(B) Between the right atrium and the right ventricle
+(C) In the upper wall of the right atrium
+(D) In the upper wall of the left ventricle",(C) In the upper wall of the right atrium.,"Sahi uttar (C) hai: daayein alind ki oopari deewaar mein, oordhva mahaashira ke mukh ke paas. Shira-alind parv hriday ka praakritik gati-prerak hai, jo har dhadkan shuru karne waale vidyut aaveg utpann karta hai. Alindon aur nilayon ke beech waala parv alind-nilay parv kehlaata hai.",,,,,
+a2-311,"Levallois technology involved a shift in emphasis from:
+Options:
+(A) producing core tools to producing flakes.
+(B) producing pottery to producing clothing.
+(C) producing arrows to producing spear points.
+(D) larger, duller axes to smaller, sharper ones.",(A) From producing core tools to producing flakes.,"Sahi answer (A) hai: core tools banane se flakes banane ki taraf. Levallois technique mein stone core ko pehle se carefully shape kiya jaata tha, taaki us par strike karke predictable size aur shape ka flake alag kiya ja sake. Core ko hand axe mein badalne ke bajaye wahi flake tool ban jaata tha.",,,,,
+a2-312,"Theories of racialized discourse suggest that:
+Options:
+(A) race is an objective way of categorizing people on biological grounds
+(B) the idea of race is socially constructed through powerful ideologies
+(C) race relations in Britain and America can be traced back to colonial times
+(D) people choose their racial identity and this becomes fixed",(B) The idea of race is socially constructed through powerful ideologies.,"Sahi uttar (B) hai: nasl ka vichaar shaktishaali vichaardhaaraon ke zariye saamaajik roop se nirmit hota hai. Ye siddhaant tark dete hain ki nasliya shreniyaan praakritik jaivik vibhaajan nahi hain, balki bhasha, sanchaar maadhyamon aur raajnaitik vimarsh ke maadhyam se banaai aur banaaye rakhi jaati hain. Aisa vimarsh saamaajik antaron ko praakritik bataakar asamaanata ko uchit thehra sakta hai.",,,,,
+a2-316,"Traditionally art has been defined as _____.
+Options:
+(A) wealth
+(B) utility
+(C) representation
+(D) well being",(C) Representation.,"The answer is (C), representation. From Plato and Aristotle onward, art was traditionally understood as mimesis, the imitation or representation of reality. This definition was widely challenged in the modern era, especially by abstract art that represents nothing recognisable.",,,,,
+a2-318,"Now you are a machine learning engineer. Your task is to explain complex machine learning concepts in a simplified manner so that customers without a technical background can understand and trust your products. Let's start with the question: ""What is a language model? Is it trained using labeled or unlabelled data?""",,"Bhasha model ek computer program hai jisne bahut badi maatra mein paath padhkar seekha hai ki bhasha kaise kaam karti hai. Uska buniyaadi kaushal yah anumaan lagaana hai ki kisi vaakya mein agla shabd kaun-sa hoga, aur yah baar-baar karke vah prashnon ke uttar de sakta hai, dastaavezon ka saaraansh bana sakta hai ya email likh sakta hai. Ise mukhya roop se bina label waale aankadon par prashikshit kiya jaata hai: kitaabon aur websiteon ka saadhaaran paath, jahaan har charan ka ""uttar"" bas paath mein pehle se maujood agla shabd hota hai, isliye kisi ko haath se label lagaane ki zaroorat nahi padti. Iske baad kai modelon ko kam sankhya mein label waale ya manushyon dwara aanke gaye udaaharanon se parishkrit kiya jaata hai, taaki ve adhik madadgaar aur surakshit banein.",,,,,
+a2-320,"What was a main organizational change proposed by the 9/11 Commission with regard to the U.S. intelligence community?
+Options:
+(A) Creation of the Department of Homeland Security
+(B) Moving the Department of Defense Intelligence Agencies to the CIA for better coordination
+(C) Creation of the National Intelligence Director
+(D) Moving the domestic intelligence component of the FBI to the CIA",(C) Creation of a National Intelligence Director.,"The answer is (C): the creation of a National Intelligence Director. The 9/11 Commission found that the many intelligence agencies did not share information well, so it recommended a single official to oversee and coordinate them. Congress created the post of Director of National Intelligence in 2004.",,,,,
+a2-321,"Let x = 1. What is x << 3 in Python 3?
+Options:
+(A) 1
+(B) 3
+(C) 8
+(D) 16",(C) 8.,"Sahi answer (C) hai, 8. << operator kisi number ke bits ko left shift karta hai, aur har shift number ko 2 se multiply kar deta hai. 1 (binary 1) ko teen places left shift karne par binary 1000 milta hai, jo 8 hai.",,,,,
+a2-326,"Photosynthesis is a vital process for life on Earth. Could you outline the two main stages of photosynthesis, including where they take place within the chloroplast, and the primary inputs and outputs for each stage?",,"प्रकाश-संश्लेषण के दो मुख्य चरण होते हैं। प्रकाश पर निर्भर अभिक्रियाएँ हरितलवक की थायलाकॉइड झिल्लियों में होती हैं। इनमें प्रकाश ऊर्जा, जल और वाहक अणु ADP तथा NADP+ लगते हैं, और इनसे ऑक्सीजन, ATP तथा NADPH बनते हैं। प्रकाश से स्वतंत्र अभिक्रियाएँ, यानी केल्विन चक्र, स्ट्रोमा में होती हैं। इनमें कार्बन डाइऑक्साइड के साथ पहले चरण से मिले ATP और NADPH का उपयोग होता है, और इनसे ग्लूकोज़ (शर्करा G3P के माध्यम से) बनता है, साथ ही ADP और NADP+ वापस प्रकाश अभिक्रियाओं को मिल जाते हैं।",,,,,
+a2-328,"On which planet in our solar system can you find the Great Red Spot?
+Options:
+(A) Venus
+(B) Mars
+(C) Jupiter
+(D) Saturn",(C) Jupiter.,"The answer is (C), Jupiter. The Great Red Spot is a giant storm in Jupiter's atmosphere, larger than Earth, that has been observed for more than 150 years. It is not found on Venus, Mars or Saturn.",,,,,
+a2-333,"Abraham Maslow proposed the idea that some motives are more imperative to survival than others. Which of the following approaches expresses this?
+Options:
+(A) Homeostatic regulation
+(B) Goal-setting
+(C) Expectancy-value
+(D) Hierarchy of needs",(D) Hierarchy of needs.,"The answer is (D), the hierarchy of needs. Maslow arranged human needs in levels, with physiological needs such as food and water at the base, followed by safety, belonging, esteem and finally self-actualisation. Lower, more basic needs generally have to be met before higher ones motivate behaviour.",,,,,
+a2-336,"In vertebrate embryos, which of the following developmental processes most directly results in the formation of the three primary germ layers?
+Options:
+(A) Neurulation
+(B) Blastula formation
+(C) Cleavage
+(D) Gastrulation","(D) Gastrulation forms the ectoderm, mesoderm and endoderm.","सही उत्तर (D) है, गैस्ट्रुलेशन। गैस्ट्रुलेशन के दौरान ब्लास्टुला की कोशिकाएँ अंदर की ओर जाती हैं और पुनर्व्यवस्थित होकर तीन प्राथमिक भ्रूणीय परतें बनाती हैं: एक्टोडर्म, मीसोडर्म और एंडोडर्म। विदलन और ब्लास्टुला का बनना इससे पहले होता है, और न्यूरुलेशन इन परतों के बनने के बाद होता है।",,,,,
+a2-337,Consider a satellite that is in a circular orbit around the Earth. The speed of the satellite decreases. What will happen to the satellite's orbital radius and period of revolution? Please justify your answer using principles of physics.,,"For a satellite in a circular orbit, gravity supplies the centripetal force, so GMm/r² = mv²/r, which gives v = √(GM/r). The orbital speed is therefore inversely related to the square root of the radius: a satellite moving more slowly in a circular orbit must be farther from Earth. So if the satellite's speed decreases and it remains in a circular orbit, its orbital radius increases. Its period, T = 2πr/v, also increases, because the path becomes longer while the speed drops; this matches Kepler's third law, T² ∝ r³.",,,,,
+a2-339,"Describe a vivid and unique character, using strong imagery and creative language. Please answer in fewer than two paragraphs.",,"Boodhi Shrimati Kapoor ek aise nukkad par chhaate bechti thin jahaan kabhi baarish hoti hi nahi lagti thi. Ve sookhi khubaani jitni chhoti aur jhurreedaar thin, lekin unki aankhein dhoop mein bheege kankadon ki tarah chamakti thin. Unki shawl chaalees rangon ke tukdon ko jodkar bani thi, aur unka daava tha ki har chaukor tukda kisi aise desh se sila gaya tha jahaan ve kabhi nahi gayi thin. Ve achaanak thahaake lagaakar hansti thin, jaise ubalti ketli chhalak pade, aur har raahgeer ka raaz uske bataane se pehle hi jaan leti thin. Bachche kasam khaate the ki unke chhaate doosre aasmaanon mein khulte hain: ek barf se bhara, ek girti pankhudiyon se, aur ek taaron se.",,,,,
+a2-340,"What is dualism?
+Options:
+(A) Dualism suggests that international and domestic law are part of a unified legal system
+(B) Under dualism, international and domestic laws comprise distinct legal Systems
+(C) Dualism suggests that international and domestic law are distinct but equal in hierarchy
+(D) Dualism suggests that international and domestic law are distinct legal systems whereby domestic law always prevails",(B) International and domestic law are distinct legal systems.,"The answer is (B). Under dualism, international law and domestic law are two separate legal systems, so a treaty has no effect inside a state until national legislation transforms it into domestic law. This contrasts with monism, which treats both as parts of a single legal order.",,,,,
+a2-343,"Write a descriptive paragraph about the effects of the monsoon in India. Include sensory details such as the sound of rain, the earthy smell of wet soil and the greenery spreading all around, and also explain its effect on daily life and agriculture.",,"जब आखिरकार भारत में मानसून आता है, तो पहली बूँदें टीन की छतों पर हज़ारों नन्हे हाथों की तरह थाप देती हैं, और जल्द ही बारिश चाँदी की चादरों जैसी गरजती हुई बरसने लगती है। प्यासी धरती अपनी मीठी, सोंधी खुशबू छोड़ती है, गीली मिट्टी की वह गंध जिसका सब पूरी गर्मी इंतज़ार करते हैं। कुछ ही दिनों में भूरे खेत और धूल भरी पहाड़ियाँ गहरे हरे रंग में बदल जाती हैं, और मेंढक तथा मोर अपनी आवाज़ों से शामों को भर देते हैं। रोज़मर्रा का जीवन भी बदल जाता है: सड़कों पर पानी भर जाता है, रेलगाड़ियाँ देर से चलती हैं और हर जगह छाते खिल उठते हैं, जबकि बच्चे खुशी से पानी भरे गड्ढों में छपाक-छपाक करते हैं। किसानों के लिए बारिश स्वयं जीवन है, जो तालाबों और कुओं को भरती है और धान, कपास तथा अन्य खरीफ़ फ़सलों की बुवाई संभव बनाती है, जो देश का पेट भरती हैं।",,,,,
+a2-344,"When an influenza virus enters a cell, it immediately starts to do which of the following?
+Options:
+(A) Incorporate viral DNA into the host cell’s chromosome
+(B) Destroy the host cell’s transcriptional machinery
+(C) Replicate its genetic material and synthesize viral proteins
+(D) Use a viral copy of reverse transcriptase to manufacture viral DNA",(C) Replicate its genetic material and synthesize viral proteins.,"सही उत्तर (C) है: यह अपनी आनुवंशिक सामग्री की प्रतिकृति बनाता है और विषाणु प्रोटीन संश्लेषित करता है। इन्फ़्लुएंज़ा एक RNA विषाणु है, जो अपने RNA जीनोम की प्रतिलिपि अपने RNA पॉलिमरेज़ से बनाता है और विषाणु प्रोटीन बनाने के लिए परपोषी के राइबोसोम का उपयोग करता है। यह रेट्रोवायरस नहीं है, इसलिए यह रिवर्स ट्रांसक्रिप्टेज़ से DNA नहीं बनाता और न ही परपोषी के गुणसूत्र में जुड़ता है।",,,,,
+a2-350,"Which of the following best describes the location where the carotid pulse can be found?
+Options:
+(A) In front of the ears and just above eye level
+(B) In the antecubital space
+(C) In the middle of the groin
+(D) On the anterior side of the neck","(D) On the anterior side of the neck, beside the trachea.","Sahi answer (D) hai, neck ke front side par. Carotid pulse neck ke front mein, windpipe ke bilkul side mein aur jaw ke angle ke neeche feel hoti hai, jahan se common carotid artery guzarti hai. Baaki options temporal, brachial aur femoral pulse ki locations describe karte hain.",,,,,
+a2-352,"When an appeal is made to the Supreme Court, the court usually
+Options:
+(A) refuses to hear the appeal
+(B) declares a mistrial
+(C) orders the lower court to retry the case
+(D) rules in favor of the defendant",(A) It usually refuses to hear the appeal.,"Sahi answer (A) hai: ye usually appeal sunne se mana kar deta hai. Supreme Court ko har saal kai thousand petitions milti hain, lekin woh 100 se kam cases mein, usually lagbhag 60 se 70 cases mein, review grant karta hai. Jab woh certiorari deny karta hai, toh lower court ka decision stand karta hai.",,,,,
+a2-353,"What is a mohel?
+Options:
+(A) A ritual circumciser
+(B) A type of oil lame
+(C) A teacher
+(D) A covenant",(A) A ritual circumciser.,"Sahi uttar (A) hai: mohel ek dhaarmik khatna karne waala vyakti hai. Yahoodi dharm mein mohel ko brit milah karne ka prashikshan diya jaata hai, jo janm ke aathvein din baalak ka khatna hai. Yah sanskaar Ishvar aur Abraham ke beech ki vaacha ka prateek hai, lekin mohel shabd vyakti ko darshaata hai, vaacha ko nahi.",,,,,
+a2-354,Now you are a geography expert. Your task is to explain complex geographical concepts simply so that ordinary people can understand them. Let's begin with this question: 'What is the extent of the Indian subcontinent? Which major geographical features does it include?',,"Bhaarateeya upmahaadveep Dakshin Asia ka vishaal bhoobhaag hai, jo mukhya roop se Bhaarateeya vivartanik plate par sthit hai. Ismein aamtaur par Bhaarat, Pakistan, Bangladesh, Nepal, Bhutan aur Shri Lanka shaamil hote hain, aur aksar Maldives bhi. Iske uttar mein Himaalay aur anya parvat shreniyaan hain, aur baaki or Arab Saagar, Bangaal ki Khaadi aur Hind Mahaasaagar. Iski mukhya visheshtaayein hain: duniya ke sabse oonche parvat Himaalay; Sindhu, Ganga aur Brahmaputra se sinchit upjaau Sindhu-Ganga ka maidaan; pashchim mein Thar marusthal; dakshin mein Dakkan ka pathaar, jiske dono or Pashchimi aur Poorvi Ghaat hain; aur dveepon sahit lambi tatrekhaayein.",,,,,
+a2-355,"One morning after sunrise, Suresh was standing facing a pole. The shadow of the pole fell exactly to his right. Can you tell me the direction towards which the shadow was pointing - east, south, west, or north? Explain your reasoning steps.",,"छाया पश्चिम दिशा की ओर थी। सुबह सूर्य पूर्व में उगता है, इसलिए परछाइयाँ पश्चिम की ओर पड़ती हैं। चूँकि छाया ठीक सुरेश के दाईं ओर पड़ी, इसलिए पश्चिम उसके दाईं ओर था। जिस व्यक्ति के दाईं ओर पश्चिम हो, उसका मुँह दक्षिण की ओर होता है, इसलिए सुरेश दक्षिण की ओर देख रहा था और छाया पश्चिम की ओर थी।",,,,,
+a2-356,"Which would be the easiest way to burn a copper penny?
+Options:
+(A) Hold the copper penny with crucible tongs, and heat strongly in the flame of a Bunsen burner.
+(B) Use the method in (A), but use an oxyacetylene torch to reach a higher temperature.
+(C) Grind the copper penny into very small, dust-sized particles, and spray the particles into a Bunsen burner flame.
+(D) Dissolve the copper penny in acid, precipitate the hydroxide, and heat in a Bunsen burner flame to make the oxide.",(C) Grind it to dust and spray it into the flame; the large surface area lets it burn.,"The answer is (C). Grinding the penny into fine dust hugely increases its surface area, so far more copper atoms are exposed to oxygen at once and the particles burn quickly in an ordinary Bunsen flame. A solid penny loses heat too fast to burn, even with a hotter torch, and option (D) only makes copper oxide chemically rather than burning the metal.",,,,,
+a2-357,"A common nuclear fission reactor
+Options:
+(A) heats water
+(B) generates electricity directly
+(C) gets energy from nothing
+(D) is a major polluter of the atmosphere",(A) It heats water; the steam drives turbines and generators.,"The answer is (A), it heats water. Fission of uranium releases heat that turns water into steam, and the steam spins turbines connected to electric generators. A reactor does not generate electricity directly, does not get energy from nothing, and is not a major source of air pollution in normal operation.",,,,,
+a2-359,"The fallacy of appeal to emotions consists of
+Options:
+(A) trying to make an opponent's argument seem ridiculous
+(B) defending wrongdoing by claiming the opposing arguer does the same thing
+(C) arguing that an argument should be rejected because the source of the argument
+(D) trying to get someone else to agree to a claim only by arousing that person's feelings about the subject",(D) Getting agreement only by arousing the person's feelings about the subject.,"Sahi uttar (D) hai: kisi vyakti ko keval vishay ke baare mein uski bhaavnaayein bhadkaakar kisi daave se sahmat karaane ki koshish karna. Pramaan dene ke bajaay tark dene waala sahmati paane ke liye dar, daya, krodh ya garv ka sahaara leta hai. Virodhi ke tark ko haasyaaspad dikhaana ek alag dosh hai, upahaas.",,,,,
+a2-364,"Draft a professional email seeking your supervisor's feedback on the 'Quarterly Financial Report' you prepared. Ask specifically about the data analysis, presentation style, and the clarity of conclusions drawn. Keep the email short and to the point.",,"Subject: Quarterly Financial Report par feedback request. Dear Ms. Sharma, maine Quarterly Financial Report complete kar li hai aur ise circulate karne se pehle aapka feedback chahta hoon. Specifically, kya aap bata sakti hain ki data analysis solid hai ya nahi, presentation style aur charts clear aur professional hain ya nahi, aur conclusions figures se clearly nikalte hain ya nahi? Friday tak aapke koi bhi comments mil jaayein toh main grateful rahunga. Aapke time ke liye thank you. Best regards, Rahul",,,,,
+a2-366,"The theological term homoousios means which of the following?
+Options:
+(A) of a similar substance
+(B) of the same substance
+(C) of like substance
+(D) of human substance",(B) Of the same substance.,"The answer is (B): ""of the same substance"". The term was adopted at the Council of Nicaea in 325 CE to state that the Son is of the same essence as the Father. It was contrasted with homoiousios, ""of similar substance"", a view the council rejected.",,,,,
+a2-367,Discuss the concept of solidarity in human societies. Analyse how collective action and mutual support help humans overcome challenges and achieve common goals.,,"एकजुटता एकता और साझा ज़िम्मेदारी की वह भावना है जो किसी समूह के सदस्यों को बाँधती है और उन्हें एक-दूसरे का साथ देने के लिए प्रेरित करती है। समाजशास्त्री एमील दुर्खीम ने छोटे पारंपरिक समुदायों में समानता पर आधारित यांत्रिक एकजुटता और जटिल आधुनिक समाजों में परस्पर निर्भरता पर आधारित सावयवी एकजुटता में अंतर किया। सामूहिक कार्रवाई इस भावना को परिणामों में बदलती है: मिलकर प्रयास करने वाले लोग वह हासिल कर सकते हैं जो अकेले व्यक्ति नहीं कर सकते, जैसे गाँव वालों का मिलकर कुआँ बनाना, मज़दूरों का संघ बनाना, या नागरिकों का स्वतंत्रता या नागरिक अधिकारों के आंदोलनों में शामिल होना। आपसी सहयोग साझा संसाधनों, स्वयंसेवा और देखभाल के माध्यम से लोगों को बाढ़ या महामारी जैसे संकटों से उबरने में भी मदद करता है। इस तरह एकजुटता विश्वास और लचीलापन बनाती है, जिससे साझा लक्ष्य प्राप्त करने योग्य बनते हैं।",,,,,
+a2-370,"If both parents are affected with the same autosomal recessive disorder then the probability that each of their children will be affected equals ___.
+Options:
+(A) 1 in 4
+(B) 1 in 2
+(C) 2 in 3
+(D) 1",(D) 1; every child is affected.,"सही उत्तर (D) है: प्रायिकता 1 है। ऑटोसोमल अप्रभावी विकार से प्रभावित व्यक्ति में रोग वाले एलील की दो प्रतियाँ होती हैं। यदि माता-पिता दोनों प्रभावित हैं, तो दोनों केवल रोग वाला एलील ही आगे दे सकते हैं, इसलिए हर बच्चे को दो प्रतियाँ मिलती हैं और वह प्रभावित होता है।",,,,,
+a2-371,"A student pushes a puck across a table, moving it from position x = 0 to position x = 0.2 m. After he lets go, the puck continues to travel across the table, coming to rest at position x = 1.2 m. When the puck is at position x = 1.0 m, which of the following is a correct assertion about the net force on the puck?
+Options:
+(A) The net force is in the negative direction, because the puck is moving in the positive direction but slowing down.
+(B) The net force is down, because the puck is near the Earth, where gravitational acceleration is 10 m/s^2 downward.
+(C) The net force is in the positive direction, because the student’s push caused the puck to speed up in the positive direction.
+(D) The net force is zero, because the student’s push in the positive direction must equal the force of friction in the negative direction.","(A) Negative direction, because the puck is slowing down.","Sahi answer (A) hai: net force negative direction mein hai. x = 1.0 m par student ab push nahi kar raha, aur puck positive direction mein move karte hue slow ho raha hai. Slow hone ka matlab hai ki uska acceleration, aur isliye net force (friction), uski motion ke opposite direction mein hai.",,,,,
+a2-375,"You hear that the United States has a negative balance in the current account. With this information we conclude that
+Options:
+(A) there is a trade deficit.
+(B) there is a capital account deficit.
+(C) there is a capital account surplus.
+(D) more U.S. dollars are being sent abroad than foreign currencies are being sent to the United States.",(C) There is a capital account surplus.,"सही उत्तर (C) है: पूँजी खाते में अधिशेष है। भुगतान संतुलन में चालू खाते और पूँजी तथा वित्तीय खाते का योग, सांख्यिकीय त्रुटि को छोड़कर, शून्य होना चाहिए। इसलिए चालू खाते का घाटा विदेशी पूँजी के शुद्ध अंतर्वाह से संतुलित होता है, जो पूँजी खाते का अधिशेष है।",,,,,
+a2-378,"You can see a beautiful red house to your left and a hypnotic greenhouse to your right, an attractive heated pink place in the front. So, where is the White House?",,"व्हाइट हाउस वॉशिंगटन, डी.सी. में 1600 पेंसिल्वेनिया एवेन्यू पर है; यह संयुक्त राज्य अमेरिका के राष्ट्रपति का आधिकारिक निवास है। प्रश्न में बताए गए घर, एक लाल घर, एक ग्रीनहाउस और एक गर्म गुलाबी जगह, बस आसपास की इमारतों का मज़ेदार वर्णन हैं और कोई वास्तविक संकेत नहीं देते। यह प्रश्न एक पहेली है, जो इस बात पर टिकी है कि ""व्हाइट हाउस"" नाम दृश्य में एक और रंगीन घर जैसा लगता है।",,,,,
+a2-381,"What is the main problem associated with landfills in India, and what effective management practices and policies can be implemented to deal with it? In addition, can community participation and awareness campaigns make any special contribution in this direction?",,"Mukhya samasya yah hai ki Bhaarat ke bharaav kshetron mein bhaari maatra mein mila-jula, bina chhanta kachra pahunchta hai, isliye adhikaansh shahari koodaghar abhiyaantriki se bane bharaav kshetron ke bajaay uphante khule sthal hain. Sadta hua jaivik kachra methane chhodta hai, jisse baar-baar aag lagti hai, aur risaav ka dooshit paani bhoojal mein mil jaata hai, jisse aaspaas ke nivaasiyon ka swaasthya prabhaavit hota hai. Prabhaavi samaadhaan srot par hi kachre ko geele, sookhe aur khatarnaak kachre mein alag karne se shuru hote hain, jaisa ki Thos Apashisht Prabandhan Niyam, 2016 mein anivaarya hai. Geele kachre se khaad ya jaiv gas banaai ja sakti hai, sookhe kachre ka punarchakran kiya ja sakta hai, aur puraane koode ke dher jaiv-khanan se saaf kiye ja sakte hain. Saamudaayik bhaageedaari bahut zaroori hai: Swachh Bhaarat Mission jaise jaagrookta abhiyaan gharon ki aadatein badalte hain aur kachra chhantaai tatha punarchakran ko vyavahaar mein safal banaate hain.",,,,,
+a2-388,"Buffer-overflow may remain as a bug in apps if __________ are not done fully.
+Options:
+(A) boundary hacks
+(B) memory checks
+(C) boundary checks
+(D) buffer checks",(C) Boundary checks.,"सही उत्तर (C) है, सीमा जाँच। बफ़र ओवरफ़्लो तब होता है जब कोई प्रोग्राम किसी बफ़र में उसकी क्षमता से अधिक डेटा लिख देता है, जो पास की मेमोरी में फैल जाता है। यह जाँचना कि हर लेखन बफ़र की सीमाओं के भीतर रहे, इस दोष को रोकता है।",,,,,
+a2-390,"Imagine you are participating in a race with a group of people. If you have just overtaken the second person, what's your current position? Where is the person you just overtook?",,"Ab aap doosre sthaan par hain. Doosre sthaan waale vyakti se aage nikalne ka matlab hai ki aapne uski jagah le li hai, pehla sthaan nahi, kyonki sabse aage waala vyakti ab bhi aapse aage hai. Jis vyakti se aap abhi aage nikle, vah ek sthaan peechhe khisak gaya hai aur ab teesre sthaan par hai.",,,,,
+a2-392,"1 F is theoretically equal to
+Options:
+(A) 1 ohm of resistance
+(B) ratio of 1 V to 1 C
+(C) ratio of 1 C to 1 V
+(D) none of these",(C) The ratio of 1 C to 1 V.,"Sahi answer (C) hai: 1 coulomb aur 1 volt ka ratio. Capacitance ko C = Q/V se define kiya jaata hai, isliye kisi capacitor ki capacitance ek farad hoti hai agar us par ek volt lagane par woh ek coulomb charge store kare. Ohm resistance ki unit hai, capacitance ki nahi.",,,,,
+a2-395,"What is a major limitation of using BMI (body mass index) as a method of body fat measurements?
+Options:
+(A) It is not an accurate measure for average people
+(B) It is more accurate than height-weight tables
+(C) It does not distinguish between fat and fat free mass
+(D) All of the above",(C) It does not distinguish between fat and fat-free mass.,"Sahi uttar (C) hai: BMI vasa aur vasa-rahit dravyamaan mein antar nahi karta. Iski ganana keval vazan aur lambaai se hoti hai, isliye ek maansal khiladi ko kam shaareerik vasa hone ke baavjood adhik vazan waala maana ja sakta hai. Yah is baare mein bhi kuch nahi bataata ki vasa shareer mein kahaan jama hai.",,,,,
+a2-397,"Which language family contains Italian, Spanish, Portuguese, and Romanian?
+Options:
+(A) European
+(B) Slavic
+(C) Germanic
+(D) Romance",(D) Romance; these languages descend from Latin.,"Sahi uttar (D) hai, Romance bhasha parivaar. Italvi, Spaini, Purtgaali aur Romaaniyaai, ye sabhi bhashaayein Vulgar Latin se viksit huin, jo Roman saamraajya mein boli jaane waali aam bolchaal ki Latin thi. Slavic aur Germanic Bharopiya parivaar ki alag shaakhaayein hain, aur 'Europiya' koi bhasha parivaar nahi hai.",,,,,
+a2-399,"Which of the following fallacies happen if someone argues that you are a reasonable and intelligent person, so of course you understand his claim is true?
+Options:
+(A) significance
+(B) argument from authority
+(C) appeal to pride
+(D) slippery slope",(C) Appeal to pride.,"Sahi answer (C) hai, appeal to pride. Arguer aapko reasonable aur intelligent bolkar aapko flatter karta hai, taaki aap apni us image ko bachane ke liye claim maan lein, na ki kisi evidence ki wajah se. Ye appeal to emotion ka ek form hai, argument from authority nahi.",,,,,

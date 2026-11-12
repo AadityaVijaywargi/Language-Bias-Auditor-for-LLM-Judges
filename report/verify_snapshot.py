@@ -19,7 +19,7 @@ sys.path.insert(0, str(ROOT / 'src'))
 def main():
     manifest = json.loads((ROOT / 'report/evidence_manifest.json').read_text(encoding='utf-8'))
     for relative, digest in manifest['sha256'].items():
-        assert hashlib.sha256((ROOT / relative).read_bytes()).hexdigest() == digest, relative
+        assert hashlib.sha256((ROOT / relative).read_bytes().replace(b'\r\n', b'\n')).hexdigest() == digest, relative
     cells = {'baseline': {}, 'translate_then_judge': {}}
     final = {}
     attempts = 0

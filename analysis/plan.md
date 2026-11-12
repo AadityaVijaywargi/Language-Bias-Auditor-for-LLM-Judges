@@ -58,6 +58,29 @@ Holm correction across the 3 pairs per judge for E2.1.
 
 ## E4: human agreement (RQ4)
 
+**Current scope amendment, 2026-11-09 (post hoc feasibility change):** the team reduced E4 to
+40 shared questions, all four forms, two independent annotators (160 answers per person).
+This supersedes the 100-item workload below, which remains as the historical protocol.
+The 40 items are drawn only from the existing 60-item E5 subset: 27 factual and 13 open-ended,
+round-robin across subjects using `e5_subset(pool, 40, 20261109)`. Selection uses item metadata
+and a fixed seed, not scores, model effects, or completion status. The manifest is
+`data/e4/reduced40/sample.csv`. At the decision, a1 had 56 saved grades and a2 reported 40;
+a2's file was not available. This is not a claim of pre-registration before human grading.
+
+Both sheets filter the original 100-item layout, retaining original row IDs and order. Each
+40-row block contains the selected questions once; form counts within a block need not be equal.
+Across all 160 rows, each form appears 40 times. All four rubric criteria and the two-rater
+consensus rule are unchanged. Existing grades outside the selected sample are preserved but
+excluded from the amended E4 and E5 human-agreement analyses. Both full and reduced CSVs can be
+imported; supplied cells are updated and cells absent from a reduced file are preserved.
+
+E5 model-only comparisons retain all 60 original items; human-agreement costs use only the 40
+selected items with two raters. Report actual matched denominators, confidence intervals and
+the feasibility amendment. Cells below 30 paired items remain exploratory; 40 items is not a
+power guarantee, and factual/open-ended splits are small. Hindi-rubric experiments and the
+200-comment validation extension are deferred to future work for this submission; unvalidated
+comment metrics must not be described as human-validated results.
+
 1. Inter-annotator agreement first (the ceiling): quadratic-weighted Cohen's kappa per criterion and per
    form, for each annotator pair; bootstrap CI over items.
 2. Judge vs mean human score per form: Spearman correlation on the content score and quadratic-weighted
@@ -193,6 +216,14 @@ between forms is a bias.
 matched (item, form) pairs from the baseline E1 run.
 
 ## Change log
+
+- **2026-11-09, E4 feasibility amendment after grading began.** Reduced 100 to 40 questions
+  (160 answers each) at the user's request because of time constraints. Fixed the metadata-only
+  seed and selection above before inspecting human agreement results. Preserved the 400-row
+  import mapping and all 56 saved a1 grades; 24 fall within the new assignment. a2's reported
+  40 grades are pending receipt. E4/E5 human analyses now filter the same 40 questions. Deferred
+  the unrun Hindi rubric and unlabelled comment-validation extension; completed model results
+  and the 60-item E5 model subset are unchanged.
 
 - **2026-10-24, judge panel (model availability, no comparison changed).**
   - `gemini-flash`: model `gemini-2.5-flash` -> `gemini-3.5-flash`. 2.5 returned 404 "no longer available to

@@ -1,0 +1,193 @@
+annotator_id,item_id,form,correctness,completeness,clarity,language_quality,notes
+a1,mmmlu-anat-0020,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-anat-0020,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-anat-0020,hi_rom,5,5,5,5,
+a1,mmmlu-anat-0020,hinglish,5,5,5,5,
+a1,mmmlu-anat-0066,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-anat-0066,hi,5,5,5,5,
+a1,mmmlu-anat-0066,hi_rom,5,5,5,5,
+a1,mmmlu-anat-0066,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-astro-0015,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-astro-0015,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-astro-0015,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-astro-0015,hinglish,5,4,4,4,Use “vatavaran” for “atmosphere” and “dharti” for “Earth.”
+a1,mmmlu-colbio-0009,en,5,5,5,5,
+a1,mmmlu-colbio-0009,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-colbio-0009,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-colbio-0009,hinglish,5,5,5,5,
+a1,mmmlu-colbio-0081,en,5,5,5,5,
+a1,mmmlu-compsec-0002,en,5,5,5,5,
+a1,mmmlu-compsec-0036,hinglish,5,5,5,5,
+a1,mmmlu-compsec-0049,en,5,5,5,5,
+a1,mmmlu-compsec-0049,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-compsec-0049,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-compsec-0049,hinglish,5,5,5,5,
+a1,mmmlu-cphys-0069,hi,5,5,5,5,
+a1,mmmlu-cphys-0202,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-cphys-0202,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-cphys-0202,hi_rom,5,5,5,5,
+a1,mmmlu-cphys-0202,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-ee-0014,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-ee-0014,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-ee-0014,hi_rom,5,5,5,5,
+a1,mmmlu-ee-0014,hinglish,5,5,5,5,
+a1,mmmlu-ee-0043,hinglish,5,5,5,5,
+a1,mmmlu-geo-0037,hi,5,5,5,5,
+a1,mmmlu-geo-0066,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-geo-0066,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-geo-0066,hi_rom,5,5,5,5,
+a1,mmmlu-geo-0066,hinglish,5,5,5,5,
+a1,mmmlu-gov-0104,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-gov-0104,hi,5,5,5,5,
+a1,mmmlu-gov-0104,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-gov-0104,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-hsbio-0044,hinglish,5,5,5,5,
+a1,mmmlu-hsbio-0293,en,5,5,5,5,
+a1,mmmlu-hsbio-0293,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-hsbio-0293,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-hsbio-0293,hinglish,5,4,5,5,
+a1,mmmlu-hschem-0125,hi_rom,5,5,5,5,
+a1,mmmlu-hschem-0128,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-hschem-0128,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-hschem-0128,hi_rom,5,5,4,4,Language is not clear.
+a1,mmmlu-hschem-0128,hinglish,5,5,5,5,
+a1,mmmlu-hschem-0197,en,5,5,5,5,
+a1,mmmlu-hschem-0197,hi,5,5,5,5,
+a1,mmmlu-hschem-0197,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-hschem-0197,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-hscs-0000,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-hscs-0000,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-hscs-0000,hi_rom,5,5,5,5,
+a1,mmmlu-hscs-0000,hinglish,5,5,5,5,
+a1,mmmlu-hscs-0052,hinglish,4,5,5,4,Use “dheere” for “slowly” and “tez” for “fast.”
+a1,mmmlu-hsphys-0125,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-hsphys-0125,hi,5,5,5,3,Simpler Hindi can be used.
+a1,mmmlu-hsphys-0125,hi_rom,5,5,5,5,
+a1,mmmlu-hsphys-0125,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-intlaw-0017,hinglish,5,5,5,5,
+a1,mmmlu-intlaw-0038,en,5,5,5,5,
+a1,mmmlu-intlaw-0038,hi,5,5,5,5,
+a1,mmmlu-intlaw-0038,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-intlaw-0038,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-intlaw-0114,hinglish,5,4,5,5,Drops some explanation.
+a1,mmmlu-logic-0000,en,5,5,5,5,
+a1,mmmlu-logic-0078,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-logic-0078,hi,5,5,5,5,
+a1,mmmlu-logic-0078,hi_rom,5,5,5,5,
+a1,mmmlu-logic-0078,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-logic-0130,en,5,5,5,5,
+a1,mmmlu-logic-0130,hi,5,5,5,5,
+a1,mmmlu-logic-0130,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-logic-0130,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-macro-0384,en,5,5,4,5,Not fully clear.
+a1,mmmlu-macro-0384,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-macro-0384,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-macro-0384,hinglish,5,5,5,5,
+a1,mmmlu-medgen-0013,en,5,5,5,5,
+a1,mmmlu-medgen-0029,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-medgen-0029,hi,5,5,5,5,
+a1,mmmlu-medgen-0029,hi_rom,5,5,5,5,
+a1,mmmlu-medgen-0029,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-misc-0019,en,5,5,5,5,
+a1,mmmlu-nutr-0024,hinglish,5,5,5,5,
+a1,mmmlu-nutr-0095,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-nutr-0095,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-nutr-0095,hi_rom,5,5,5,5,
+a1,mmmlu-nutr-0095,hinglish,5,5,5,5,
+a1,mmmlu-phil-0017,hi_rom,5,5,4,4,Language quality could be simpler in Hinglish.
+a1,mmmlu-phil-0225,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-phil-0225,hi,5,5,5,5,
+a1,mmmlu-phil-0225,hi_rom,5,5,5,5,
+a1,mmmlu-phil-0225,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-prehist-0078,hi,5,5,5,5,
+a1,mmmlu-prehist-0112,hinglish,5,5,5,5,
+a1,mmmlu-prehist-0291,en,5,5,5,5,
+a1,mmmlu-prehist-0291,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-prehist-0291,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-prehist-0291,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-psych-0002,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-psych-0002,hi,5,5,5,5,
+a1,mmmlu-psych-0002,hi_rom,5,5,5,5,
+a1,mmmlu-psych-0002,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-psych-0003,hi,5,5,5,5,
+a1,mmmlu-rel-0095,hi,3,5,3,3,The sixth–fifth century detail is wrong.
+a1,mmmlu-rel-0118,hi_rom,5,5,5,5,
+a1,mmmlu-rel-0161,en,5,5,5,5,
+a1,mmmlu-rel-0161,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-rel-0161,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-rel-0161,hinglish,5,5,5,5,
+a1,mmmlu-rel-0168,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-rel-0168,hi,5,5,5,5,
+a1,mmmlu-rel-0168,hi_rom,5,5,5,5,
+a1,mmmlu-rel-0168,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-soc-0051,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-soc-0051,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-soc-0051,hi_rom,5,5,5,5,Good Hinglish.
+a1,mmmlu-soc-0051,hinglish,5,5,5,5,
+a1,mmmlu-soc-0086,hinglish,5,5,5,5,
+a1,mmmlu-usfp-0035,hi_rom,5,5,5,5,
+a1,mmmlu-usfp-0049,en,5,5,5,5,
+a1,mmmlu-usfp-0080,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mmmlu-usfp-0080,hi,5,5,5,5,
+a1,mmmlu-usfp-0080,hi_rom,4,5,5,5,Raashtriya is the wrong spelling; should be Rashtriya.
+a1,mmmlu-usfp-0080,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-hum-03,hinglish,5,5,5,5,
+a1,mtb-reason-01,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-reason-01,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-reason-01,hi_rom,5,5,5,5,
+a1,mtb-reason-01,hinglish,5,5,5,5,
+a1,mtb-reason-02,en,5,5,5,5,
+a1,mtb-reason-02,hi,5,5,5,5,
+a1,mtb-reason-02,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-reason-02,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-reason-04,hi_rom,5,5,5,5,
+a1,mtb-reason-07,en,5,5,5,5,
+a1,mtb-reason-07,hi,5,5,5,5,
+a1,mtb-reason-07,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-reason-07,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-role-01,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-role-01,hi,5,5,5,5,
+a1,mtb-role-01,hi_rom,5,5,5,5,
+a1,mtb-role-01,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-stem-01,hi,5,5,5,5,
+a1,mtb-stem-02,en,5,5,5,5,
+a1,mtb-stem-02,hi,5,5,5,5,
+a1,mtb-stem-02,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-stem-02,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-stem-04,en,5,5,5,5,
+a1,mtb-stem-04,hi,5,5,5,5,
+a1,mtb-stem-04,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-stem-04,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-stem-05,hi_rom,3,5,4,4,Uses “aml” instead of “acid” in most cases.
+a1,mtb-write-01,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-write-01,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-write-01,hi_rom,5,5,5,5,
+a1,mtb-write-01,hinglish,4,5,5,4,Should be Mrs. Boodhi Kapoor rather than Boodhi Mrs. Kapoor.
+a1,mtb-write-04,en,5,5,5,5,
+a1,mtb-write-04,hi,5,5,5,5,
+a1,mtb-write-04,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtb-write-04,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtbhi-hum-058,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtbhi-hum-058,hi,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtbhi-hum-058,hi_rom,5,5,5,5,
+a1,mtbhi-hum-058,hinglish,5,5,5,5,
+a1,mtbhi-hum-066,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtbhi-hum-066,hi,5,5,5,5,
+a1,mtbhi-hum-066,hi_rom,5,5,5,5,
+a1,mtbhi-hum-066,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtbhi-hum-151,hinglish,3,5,3,3,Translate “human life”; use “accha aur bura” for “good and bad”; translate “old age” as “budhapa”; use “maut” or “mrityu” for “death”; translate “urgency” correctly.
+a1,mtbhi-hum-155,en,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtbhi-hum-155,hi,5,5,5,5,
+a1,mtbhi-hum-155,hi_rom,5,5,5,5,
+a1,mtbhi-hum-155,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtbhi-role-135,hi_rom,5,5,5,5,
+a1,mtbhi-role-148,en,5,5,5,5,
+a1,mtbhi-role-148,hi,5,5,5,5,
+a1,mtbhi-role-148,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtbhi-role-148,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtbhi-write-017,en,5,5,5,5,
+a1,mtbhi-write-017,hi,5,5,5,5,
+a1,mtbhi-write-017,hi_rom,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtbhi-write-017,hinglish,5,5,5,5,User assigned all remaining answers 5 on every criterion in one chat instruction on 2026-11-12. Individual review of these answers was not recorded.
+a1,mtbhi-write-019,en,5,5,5,5,
+a1,mtbhi-write-110,hi,5,5,5,5,

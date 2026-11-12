@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-app = ["gradio>=4.0"]
+app = ["gradio>=6.0,<7", "pandas"]
 dev = ["pytest>=7.0"]
 
 [tool.setuptools.packages.find]

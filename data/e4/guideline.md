@@ -5,7 +5,7 @@ are the human reference the judges are compared against, so grade independently 
 
 ## Your sheet
 
-`data/e4/sheet_<your id>.csv`, 400 rows. Each row has:
+`data/e4/reduced40/sheet_<your id>.csv`, 160 assigned rows (40 questions in four forms), amended 9 November 2026. Original row IDs are retained and have gaps. Use the shorter XLSX files in `outputs/e4_reduced40/` if grading in Excel. Each row has:
 
 - **question**: the question, in English (multiple-choice questions show their options).
 - **reference_answer**: a correct reference answer, for factual questions only. Blank for open-ended ones.
@@ -37,8 +37,8 @@ Use 2, 3 and 4 for everything in between.
 2. **Work alone.** Don't discuss questions, answers or grades with the other grader until you have both
    finished and imported your sheets.
 3. **Don't use AI tools or translators** to grade or to read the answers.
-4. **Take breaks.** Rows 1-100, 101-200, 201-300 and 301-400 each contain every question once, so stopping
-   after a hundred rows is a natural point. About 4-6 hours in total.
+4. **Take breaks.** Each consecutive block of 40 assigned answers contains every selected question once.
+   Original row IDs are not sequential in the shorter sheet. Keep existing grades; transfer by row ID, never by spreadsheet row number.
 5. If you can't grade a row (for example, a broken answer), leave all four grades blank and say why in notes.
 
 ## Saving

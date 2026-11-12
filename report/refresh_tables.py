@@ -90,14 +90,16 @@ def main():
     for name in set(re.findall(r'`(main_[\w]+)\.csv`', text)):
         load(name)
     USED.update((ROOT / rel) for rel in ['analysis/plan.md', 'data/quadruples.jsonl', 'configs/experiments.yaml',
-                'configs/judges.yaml', 'data/e4/sample.csv', 'src/lb/mitigation.py', 'src/lb/e4.py', 'src/lb/stats.py',
+                'configs/judges.yaml', 'data/e4/sample.csv', 'data/e4/reduced40/sample.csv',
+                'data/human_grades.csv', 'src/lb/mitigation.py', 'src/lb/e4.py', 'src/lb/stats.py',
                 'src/lb/analysis.py', 'src/lb/runners/e5_mitigation.py', 'report/refresh_tables.py', 'report/verify_snapshot.py'])
     USED.update((ROOT / 'results/raw').glob('*.jsonl'))
-    manifest = {'snapshot_date': '2026-11-01', 'raw_results_commit': subprocess.check_output(
+    manifest = {'snapshot_date': '2026-11-12', 'raw_results_commit': subprocess.check_output(
                     ['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
-                'source_state': 'Completed Qwen translation results plus the reviewed E5 analysis extensions committed with this report. Hashes identify exact inputs.',
-                'excluded': 'Unrun Hindi rubric and absent human grades. No new model calls made during analysis.',
-                'sha256': {str(p.relative_to(ROOT)).replace('\\', '/'): hashlib.sha256(p.read_bytes()).hexdigest()
+                'source_state': 'Existing model results with reduced E4 protocol and provenance-labelled bulk a1 ratings; no two-rater validation. Sources identified by hashes.',
+                'excluded': 'Hindi rubric and comment validation deferred. Human agreement awaits two-rater coverage; out-of-sample grades are preserved but excluded. No new model calls.',
+                'hash_normalization': 'CRLF to LF for cross-platform text checkouts',
+                'sha256': {str(p.relative_to(ROOT)).replace('\\', '/'): hashlib.sha256(p.read_bytes().replace(b'\r\n', b'\n')).hexdigest()
                            for p in sorted(USED)}}
     (REPORT / 'evidence_manifest.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
     print(f'Refreshed 8 report tables and {len(USED)} source hashes.')

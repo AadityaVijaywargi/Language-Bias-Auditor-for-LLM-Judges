@@ -91,7 +91,7 @@ package:
 	$(PY) scripts/package.py $(ARGS)
 
 app:
-	@echo "'$@' is built in Phase 3 (brief section 11); not available yet." && exit 1
+	$(PY) demo/app.py
 
 # Regenerate every main-study call from cached responses with no network access (judges with no logged
 # main-study run are skipped; any other cache miss is an error). Then rebuild every table (stats, stats-b,

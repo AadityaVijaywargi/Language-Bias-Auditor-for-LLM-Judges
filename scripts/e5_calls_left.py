@@ -3,8 +3,8 @@
     python scripts/e5_calls_left.py --shard 2/3                 # gpt-oss-120b, bias_aware
     python scripts/e5_calls_left.py --variant translate_then_judge --shard 2/4 --by-experiment
 
-For translate_then_judge the count includes the translations (e5_translate). Judging waits for every
-translation of the part, so until then all its judge calls count as left.
+For translate_then_judge the count includes the translations (e5_translate). A judge call on an answer not
+translated yet counts as left; calls on English answers can already be cached from the baseline.
 
 A dry run of lb.runners.e5_mitigation shows the same count, but once nothing is left it replays every call
 from the cache and logs a new run file; this check does not. Exit code 0 only when nothing is left.
@@ -16,8 +16,8 @@ from lb.analysis import load_calls
 from lb.budget import summarize
 from lb.config import experiments_config
 from lb.runners.common import build_judges
-from lb.runners.e5_mitigation import (TRANSLATE_VARIANT, missing_translations, plan, plan_translations,
-                                      subset_for, translated_text_of, translations)
+from lb.runners.e5_mitigation import (NON_EN, TRANSLATE_VARIANT, plan, plan_translations, subset_for,
+                                      translated_text_of, translations)
 
 
 def main() -> None:
@@ -35,10 +35,8 @@ def main() -> None:
         total, cached = summarize(plan_translations(subset, translator), build_judges([translator], offline=True))
         left.update({k[0]: total[k] - cached[k] for k in total})
         texts = translations(load_calls(TRANSLATE_VARIANT, [translator]), translator)
-        if missing_translations(subset, texts):   # judging has not started: every judge call is left
-            for s in plan(subset, [args.judge], cfg, args.variant, lambda q, selector: ""):   # count only
-                left[s.experiment] = left.get(s.experiment, 0) + 1
-            report(left, args.by_experiment)
+        blank = {(q.item_id, f): "" for q in subset for f in NON_EN}   # count only: a blank prompt is never cached
+        texts = {**blank, **texts}
         specs = plan(subset, [args.judge], cfg, args.variant, translated_text_of(texts))
     else:
         specs = plan(subset, [args.judge], cfg, args.variant)

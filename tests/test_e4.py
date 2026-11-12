@@ -123,13 +123,15 @@ def test_tables_from_two_annotators_and_a_judge(items, sample, tmp_path):
 
     assert all(r["agreement"] == 1 for r in t["e4_iaa"]) and len(t["e4_iaa"]) == 16    # identical annotators
     jh = {(r["form"], r["score"]): r for r in t["e4_judge_human"]}
-    assert jh[("en", "content")]["agreement"] == pytest.approx(1) and jh[("en", "content")]["n"] == 100
+    assert jh[("en", "content")]["agreement"] == pytest.approx(1) and jh[("en", "content")]["n"] == 40
     assert jh[("hi", "content")]["agreement"] != jh[("hi", "content")]["agreement"]    # judge constant: NaN
     drop = {(r["comparison"], r["score"]): r for r in t["e4_form_drop"]}
     assert drop[("hinglish vs en", "content")]["change"] == pytest.approx(-2)   # rank order reversed
     gap = {(r["who"], r["comparison"]): r for r in t["e4_form_gap"]}
     assert gap[("human (mean)", "hinglish vs en")]["mean_d"] == pytest.approx(-1)
-    assert gap[(JUDGE, "hinglish vs en")]["mean_d"] == pytest.approx(0)
+    active = e4.analysis_sample(items, experiments_config())
+    expected = sum(7 - 2 * quality[q.item_id] for q in active) / len(active)
+    assert gap[(JUDGE, "hinglish vs en")]["mean_d"] == pytest.approx(expected)
     assert (tmp_path / "tables" / "main_baseline_e4.md").exists()
 
 
@@ -137,3 +139,38 @@ def test_tables_without_grades(items, tmp_path):
     t = e4.run(tmp_path / "none.csv", tmp_path, tmp_path / "tables", items)
     assert t["e4_iaa"] == [] and all(r["graded"] == 0 for r in t["e4_coverage"])
     assert "No human grades yet" in (tmp_path / "tables" / "main_baseline_e4.md").read_text(encoding="utf-8")
+
+
+def test_reduced_sample_preserves_original_ids_and_shared_coverage(items, sample):
+    cfg = experiments_config()
+    selected = e4.analysis_sample(items, cfg)
+    assert len(selected) == 40
+    assert Counter(q.type for q in selected) == {"factual": 27, "open_ended": 13}
+    assert {q.item_id for q in selected} <= {q.item_id for q in subset_for(cfg, items)}
+    assert selected == e4.analysis_sample(list(reversed(items)), cfg)[::-1]
+    cells = []
+    for a in ("a1", "a2"):
+        key = {r: (i, f) for r, i, f in e4.layout(sample, a)}
+        rows = e4.active_sheet_rows(items, a, cfg)
+        _, parsed = e4.parse_sheet([{**r, **{c: "4" for c in e4.CRITERIA}} for r in rows], items, cfg)
+        assert len(rows) == len(parsed) == 160
+        cells.append({key[r["row_id"]] for r in rows})
+        assert Counter(f for i, f in cells[-1]) == {f: 40 for f in FORMS}
+    assert cells[0] == cells[1]
+
+
+def test_reduced_import_preserves_prior_grades_outside_sheet(items, sample, tmp_path):
+    cfg = experiments_config()
+    path, dest = tmp_path / "sheet.csv", tmp_path / "grades.csv"
+    e4.write_sheet(path, graded(sample, "a1"), e4.SHEET_COLUMNS)
+    e4.import_sheet(path, dest, items, cfg)
+    rows = e4.active_sheet_rows(items, "a1", cfg)
+    rows = [{**r, **{c: "3" for c in e4.CRITERIA}} for r in rows]
+    rows[0].update({c: "" for c in e4.CRITERIA})  # explicit blank clears only this supplied cell
+    e4.write_sheet(path, rows, e4.SHEET_COLUMNS)
+    e4.import_sheet(path, dest, items, cfg)
+    got = e4.load_grades(dest)
+    assert len(got) == 399
+    assert Counter(g.correctness for g in got) == {4: 240, 3: 159}
+    with pytest.raises(SystemExit, match="duplicate row id"):
+        e4.parse_sheet(rows + rows[:1], items, cfg)

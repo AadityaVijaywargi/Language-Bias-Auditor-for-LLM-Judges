@@ -3,6 +3,11 @@
 seed: 20261023
 forms: [en, hi, hi_rom, hinglish]
 
+# 2026-11-09 feasibility amendment; original 100-item row mapping stays fixed.
+human_validation:
+  subset_size: 40
+  seed: 20261109
+
 # Open decisions (brief section 12). Change only after the team agrees.
 question_language: en          # en | answer  (answer = show the question in the answer's language)
 reference_guided: factual      # factual | all | none

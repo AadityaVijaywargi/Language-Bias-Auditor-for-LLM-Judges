@@ -1,4 +1,17 @@
-# Results so far (draft, updated 2026-11-01)
+# Results so far (model results updated 2026-11-01)
+
+**Current status (2026-11-12):** E4 uses 40 questions / 160 answers per grader.
+The saved grade file contains 192 a1 entries, including 84 bulk-assigned ratings whose
+notes explicitly state that individual review was not recorded. These are not independent
+human validation. There is no two-rater consensus result. See
+`data/e4/reduced40/bulk_rating_provenance.json` and the coverage tables.
+The Hindi-rubric arm and comment-label validation remain deferred.
+Use `data/e4/reduced40/sheet_a1.csv` and `sheet_a2.csv`; original row IDs are retained.
+Import sheets with `python -m lb.e4 import <path>` and rebuild with `python -m lb.e4`.
+The model mitigation analysis still uses its original 60-item subset.
+
+
+**Historical human-study update, 2026-11-09 (superseded above):** E4 is now 40 shared questions / 160 answers each. All 56 saved a1 grades are preserved, 24 within the active sample; a2 grades await receipt. No two-rater human result yet. Hindi-rubric and comment validation are deferred. The older status narrative below records the model-result snapshot; see the current analysis plan for the amendment.
 
 Working summary of the main-study results, for the team and the report. **Draft: not reviewed by the team.**
 Every number is copied from a generated table in `results/tables/` (named in each section), which `make
@@ -7,7 +20,7 @@ Comparisons and tests are the ones fixed in `analysis/plan.md`; anything post ho
 
 **Scope.** 150 verified quadruples (100 factual, 50 open-ended), 60 verified wrong twins. Two judges:
 gpt-oss-120b (Groq) and qwen2.5-7b-local (Ollama). gemini-flash is in the plan but has pilot calls only, so
-none of the results below include it. E4 (human grading) is ready to run but has no grades yet, so no result
+none of the results below include it. E4 has a1 ratings including explicitly labelled bulk entries, but no two-rater consensus, so no result
 here says whether the judges agree with Hindi speakers. Gaps are form minus English on the same item, on the 1-5 scale; "content" is
 the mean of correctness, completeness and clarity.
 

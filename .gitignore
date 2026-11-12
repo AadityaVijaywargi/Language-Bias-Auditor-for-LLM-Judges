@@ -8,3 +8,6 @@ __pycache__/
 scripts/generate_handoff_pdf.py
 # results/cache and results/raw ARE committed: `make reproduce` needs them offline.
 dist/
+
+# Local demo runtime output
+demo/*.log

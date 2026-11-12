@@ -23,7 +23,7 @@ from .analysis import (CRITERIA, E2_PAIRS, SEED, WRONG, e1_scores, exploratory, 
                        pair_verdicts, write_csv)
 from .config import RAW, TABLES, experiments_config
 from .data import load_quadruples
-from .e4 import GRADES, MEASURES, consensus, human_scores, judge_human_pairs, load_grades
+from .e4 import GRADES, MEASURES, analysis_sample, consensus, human_scores, judge_human_pairs, load_grades
 from .runners.e5_mitigation import NON_EN, subset_for
 from .stats import bootstrap_agreement_diff_ci, bootstrap_rate_diff_ci, paired_bootstrap_ci
 
@@ -149,7 +149,8 @@ def analyse(judges: list[str] | None = None, raw_dir: Path = RAW, grades_path: P
     items = subset_for(cfg)
     twins = [q for q in items if q.wrong_usable]
     base = load_calls("baseline", None, raw_dir)
-    mean = consensus(human_scores(load_grades(grades_path)))
+    human_ids = {q.item_id for q in analysis_sample(load_quadruples(), cfg)}
+    mean = consensus(human_scores([g for g in load_grades(grades_path) if g.item_id in human_ids]))
     tables = {"e1": [], "e2": [], "e3": [], "e1_criteria": [], "e2_ties": [], "accuracy": []}
     for variant in cfg["experiments"]["e5"]["variants"]:
         calls = load_calls(variant, judges, raw_dir)

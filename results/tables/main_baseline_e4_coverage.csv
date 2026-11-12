@@ -1,5 +1,9 @@
 who,form,graded,of
-consensus (>= 2 raters),en,0,100
-consensus (>= 2 raters),hi,0,100
-consensus (>= 2 raters),hi_rom,0,100
-consensus (>= 2 raters),hinglish,0,100
+a1,en,40,40
+a1,hi,40,40
+a1,hi_rom,40,40
+a1,hinglish,40,40
+consensus (>= 2 raters),en,0,40
+consensus (>= 2 raters),hi,0,40
+consensus (>= 2 raters),hi_rom,0,40
+consensus (>= 2 raters),hinglish,0,40

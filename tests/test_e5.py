@@ -162,6 +162,7 @@ def test_ties_criteria_and_human_agreement_accuracy_cost(tmp_path):
                 and r["criterion"] == "language_quality")
     assert crit["n"] == 60 and crit["change"] == 0
     acc = {(r["form"], r["score"]): r for r in out["accuracy"] if r["variant"] == "bias_aware"}
+    assert acc[("hi", "content")]["n"] == 40  # human amendment only; model metrics still use 60
     assert acc[("hi", "content")]["change"] == pytest.approx(0)
     assert acc[("hinglish", "content")]["new"] == pytest.approx(-1)
     assert acc[("hinglish", "content")]["change"] == pytest.approx(-2)

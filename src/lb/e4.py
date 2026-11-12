@@ -4,10 +4,11 @@
     python -m lb.e4 import data/e4/sheet_a1.csv    graded sheet -> data/human_grades.csv (that annotator's rows)
     python -m lb.e4                                tables -> results/tables/main_baseline_e4_*.csv, main_baseline_e4.md
 
-Sample: 100 items, all 60 E5-subset items (so E5 can measure its accuracy cost on them) filled to the full
+Original mapping: 100 items, all 60 E5-subset items (so E5 can measure its accuracy cost on them) filled to the full
 set's type mix (67 factual, 33 open-ended) round-robin across subjects, seed 20261023. Each annotator grades
 every sampled item in all four forms (400 rows) on the E1 rubric, seeing what the judge saw: the English
-question, the English reference for factual items, and the answer.
+question, the English reference for factual items, and the answer. The 2026-11-09 amendment
+filters this mapping to 40 E5 items (160 answers each); see analysis_sample. Original IDs stay fixed.
 
 Blinding: a sheet has no item or form column. Its rows come in 4 blocks with every item once per block and
 each form in a quarter of each block, shuffled within blocks with a per-annotator seed, so one item's four
@@ -29,7 +30,7 @@ from .analysis import CRITERIA, SEED, e1_scores, exploratory, fmt, judges_in, lo
 from .config import DATA, RAW, TABLES, experiments_config
 from .data import load_quadruples, reference_for
 from .runners.common import question_text
-from .runners.e5_mitigation import NON_EN, subset_for
+from .runners.e5_mitigation import NON_EN, subset_for, e5_subset
 from .schema import FORMS, HumanGrade
 from .stats import bootstrap_agreement_ci, bootstrap_agreement_diff_ci, paired_bootstrap_ci, wilcoxon_p
 
@@ -82,6 +83,30 @@ def layout(sample, annotator: str) -> list[tuple[str, str, str]]:
     return [(f"{annotator}-{n:03d}", item_id, form) for n, (item_id, form) in enumerate(rows, 1)]
 
 
+def analysis_sample(items, exp_cfg: dict) -> list:
+    """Active human sample; never use this to rebuild the original row-ID mapping.
+
+    The feasibility amendment selects 40 of the existing 60 E5 items by type and
+    subject, without consulting grades or completion status. Legacy configs keep 100.
+    """
+    cfg = exp_cfg.get("human_validation")
+    if not cfg:
+        return e4_sample(items, exp_cfg)
+    pool = subset_for(exp_cfg, items)
+    size = cfg["subset_size"]
+    if not 1 <= size <= len(pool):
+        raise ValueError("human_validation.subset_size must fit the E5 subset")
+    return e5_subset(pool, size, cfg["seed"])
+
+
+def active_sheet_rows(items, annotator: str, exp_cfg: dict) -> list[dict]:
+    """Filter original sheets, preserving IDs, ordering and all answer text."""
+    original = e4_sample(items, exp_cfg)
+    ids = {q.item_id for q in analysis_sample(items, exp_cfg)}
+    keep = {r for r, i, _ in layout(original, annotator) if i in ids}
+    return [r for r in sheet_rows(original, annotator, exp_cfg) if r["row_id"] in keep]
+
+
 def sheet_rows(sample, annotator: str, exp_cfg: dict) -> list[dict]:
     by_id = {q.item_id: q for q in sample}
     out = []
@@ -106,11 +131,12 @@ def write_sheet(path: Path, rows: list[dict], columns: list[str]) -> None:
         w.writerows(rows)
 
 
-def write_sheets(annotators, items=None, exp_cfg: dict | None = None, out_dir: Path = E4_DIR) -> list[Path]:
+def write_sheets(annotators, items=None, exp_cfg: dict | None = None, out_dir: Path | None = None) -> list[Path]:
     """One sheet per annotator plus data/e4/sample.csv. A sheet that already holds a grade is left as it is."""
     exp_cfg = exp_cfg or experiments_config()
     items = items if items is not None else load_quadruples()
-    sample = e4_sample(items, exp_cfg)
+    sample = analysis_sample(items, exp_cfg)
+    out_dir = out_dir or (E4_DIR / "reduced40" if exp_cfg.get("human_validation") else E4_DIR)
     e5 = {q.item_id for q in subset_for(exp_cfg, items)}
     write_sheet(out_dir / "sample.csv", [{"item_id": q.item_id, "type": q.type, "subject": q.subject,
                                           "in_e5_subset": q.item_id in e5} for q in sample],
@@ -121,7 +147,14 @@ def write_sheets(annotators, items=None, exp_cfg: dict | None = None, out_dir: P
         if path.exists() and any((r.get(c) or "").strip() for r in read_csv(path) for c in CRITERIA):
             print(f"{path} already holds grades: left as it is")
             continue
-        write_sheet(path, sheet_rows(sample, a, exp_cfg), SHEET_COLUMNS)
+        rows = active_sheet_rows(items, a, exp_cfg)
+        saved = {(g.item_id, g.form): g for g in load_grades() if g.annotator_id == a}
+        key = {r: (i, f) for r, i, f in layout(e4_sample(items, exp_cfg), a)}
+        for row in rows:
+            if key[row["row_id"]] in saved:
+                grade = saved[key[row["row_id"]]]
+                row.update({c: getattr(grade, c) for c in (*CRITERIA, "notes")})
+        write_sheet(path, rows, SHEET_COLUMNS)
         written.append(path)
     return written
 
@@ -160,9 +193,13 @@ def parse_sheet(rows: list[dict], items=None, exp_cfg: dict | None = None) -> tu
     annotator = annotators.pop()
     key = {row_id: (item_id, form) for row_id, item_id, form in layout(sample, annotator)}
     by_id = {q.item_id: q for q in sample}
-    grades, problems = [], []
+    grades, problems, seen = [], [], set()
     for r in rows:
         row_id = (r.get("row_id") or "").strip()
+        if row_id in seen:
+            problems.append(f"{row_id}: duplicate row id")
+            continue
+        seen.add(row_id)
         if row_id not in key:
             problems.append(f"{row_id or '(blank row_id)'}: not a row of {annotator}'s sheet")
             continue
@@ -189,9 +226,18 @@ def parse_sheet(rows: list[dict], items=None, exp_cfg: dict | None = None) -> tu
 
 
 def import_sheet(path: Path, grades_path: Path = GRADES, items=None, exp_cfg: dict | None = None) -> list[HumanGrade]:
-    """Replace the sheet's annotator's rows in human_grades.csv with the graded rows of the sheet."""
-    annotator, grades = parse_sheet(read_csv(path), items, exp_cfg)
-    kept = [r for r in (read_csv(grades_path) if grades_path.exists() else []) if r["annotator_id"] != annotator]
+    """Update supplied cells; preserve grades outside a reduced sheet (including archived work).
+
+    Blank supplied rows clear those cells, as in the original full-sheet import.
+    """
+    source = read_csv(path)
+    annotator, grades = parse_sheet(source, items, exp_cfg)
+    exp_cfg = exp_cfg or experiments_config()
+    items = items if items is not None else load_quadruples()
+    key = {r: (i, f) for r, i, f in layout(e4_sample(items, exp_cfg), annotator)}
+    supplied = {key[r["row_id"].strip()] for r in source}
+    kept = [r for r in (read_csv(grades_path) if grades_path.exists() else [])
+            if r["annotator_id"] != annotator or (r["item_id"], r["form"]) not in supplied]
     rows = kept + [g.model_dump() for g in grades]
     rows.sort(key=lambda r: (r["annotator_id"], r["item_id"], FORMS.index(r["form"])))
     grades_path.parent.mkdir(parents=True, exist_ok=True)
@@ -341,7 +387,8 @@ def ci(r: dict, key: str) -> str:
 def render_markdown(tables: dict, judges: list[str], annotators: list[str], n_sample: int) -> str:
     L = ["# E4: human grading and judge-human agreement (baseline prompt)", "",
          f"Generated by `python -m lb.e4` from data/human_grades.csv and the E1 baseline records (pilot runs "
-         f"excluded), per analysis/plan.md. Sample: {n_sample} items in four forms (data/e4/sample.csv). "
+         f"excluded), per analysis/plan.md. Active sample: {n_sample} items in four forms "
+         f"(40-item amendment manifest: data/e4/reduced40/sample.csv; legacy: data/e4/sample.csv). "
          f"Annotators: {', '.join(annotators) or 'none yet'}. Judges: {', '.join(judges)}. Bootstrap 95% CIs over "
          f"items (10,000 resamples, seed {SEED}); cells with fewer than 30 items are exploratory. Judge-human "
          f"agreement uses cells graded by at least {MIN_RATERS} annotators.", ""]
@@ -377,11 +424,12 @@ def run(grades_path: Path = GRADES, raw_dir: Path = RAW, tables_dir: Path = TABL
         exp_cfg: dict | None = None) -> dict:
     exp_cfg = exp_cfg or experiments_config()
     items = items if items is not None else load_quadruples()
-    sample = e4_sample(items, exp_cfg)
+    sample = analysis_sample(items, exp_cfg)
     calls = load_calls("baseline", None, raw_dir)
     judges = judges_in({k: v for k, v in calls.items() if k[0] == "e1"})
     scores = {j: e1_scores(calls, j, sample) for j in judges}
-    by_annotator = human_scores(load_grades(grades_path))
+    ids = {q.item_id for q in sample}
+    by_annotator = human_scores([g for g in load_grades(grades_path) if g.item_id in ids])
     mean = consensus(by_annotator)
     tables = {"e4_coverage": coverage(by_annotator, mean, sample),
               "e4_iaa": inter_annotator(by_annotator, sample),

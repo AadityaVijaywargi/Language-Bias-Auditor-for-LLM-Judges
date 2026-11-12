@@ -1,10 +1,20 @@
 # Language-Bias Auditor for LLM Judges
 
+**Current status (2026-11-12):** E4 uses 40 questions / 160 answers per grader.
+The saved grade file contains 192 a1 entries, including 84 bulk-assigned ratings whose
+notes explicitly state that individual review was not recorded. These are not independent
+human validation. There is no two-rater consensus result. See
+`data/e4/reduced40/bulk_rating_provenance.json` and the coverage tables.
+The Hindi-rubric arm and comment-label validation remain deferred.
+Use `data/e4/reduced40/sheet_a1.csv` and `sheet_a2.csv`; original row IDs are retained.
+Import sheets with `python -m lb.e4 import <path>` and rebuild with `python -m lb.e4`.
+The model mitigation analysis still uses its original 60-item subset.
+
 Do LLM judges score the same answer differently when it is written in English, Hindi (Devanagari),
 Romanized Hindi or Hinglish? This repo measures the gap (E1 pointwise, E2/E3 pairwise), checks judges
 against Hindi-speaking humans (E4), and tests prompt-level fixes (E5). Course project UE24AM343AB5.
 
-**Status (2026-11-01, Qwen translate-then-judge analysed).** 150 quadruples (100 factual, 50 open-ended) and 60 wrong twins, drafted by Claude and all verified by a Hindi speaker. **Main study:** baseline E1-E3 complete for qwen2.5-7b-local and gpt-oss-120b; `make stats` writes both judges' tables to `results/tables/main_baseline.md`. **Section B** (post hoc criterion leakage and comment coding): `make stats-b`; the 200-comment two-rater check is still to be labelled. **Gap A** (wrong twins scored pointwise, pre-registered in `analysis/plan.md`): done for both judges (480 calls); `make stats-a` writes `results/tables/main_baseline_a.md`. **E5** (mitigations on a 60-item subset): bias-aware done for both judges (920 calls each) and majority vote done, `make stats-e5` writes `results/tables/main_e5.md`; translate-then-judge done for both judges (180 shared translations and 920 planned judgments per judge; Qwen has 9 final unparsed E3 judgments); the Hindi rubric not run yet. **Results so far:** `analysis/results_summary.md` (draft). **Paper draft and source audit:** `report/draft.md`, `report/citation_audit.md`; `python report/verify_snapshot.py` checks source hashes, raw Qwen metrics and deterministic E5 table reproduction without provider calls. **Re-audit package:** `make package`. **Pilot:** gpt-oss-120b and gemini-flash done (`make reproduce-pilot` writes `pilot_report.md`). **Reproduce:** `make reproduce` reruns every main-study call from the cache and rebuilds all tables. **E4** (human grading, 100 items in four forms, at least two annotators): blind sheets in `data/e4/` (`make e4-sheets`), guideline `data/e4/guideline.md`, `make e4-import ARGS=<sheet>` merges a graded sheet into `data/human_grades.csv`, `make stats-e4` writes `results/tables/main_baseline_e4.md`; no grades yet. `make stats-e5` adds the human-agreement accuracy cost once two graders overlap. Items enter analysis only after human verification via the QC sheet.
+**Historical model snapshot (2026-11-01, Qwen translate-then-judge analysed).** 150 quadruples (100 factual, 50 open-ended) and 60 wrong twins, drafted by Claude and all verified by a Hindi speaker. **Main study:** baseline E1-E3 complete for qwen2.5-7b-local and gpt-oss-120b; `make stats` writes both judges' tables to `results/tables/main_baseline.md`. **Section B** (post hoc criterion leakage and comment coding): `make stats-b`; the 200-comment two-rater check is still to be labelled. **Gap A** (wrong twins scored pointwise, pre-registered in `analysis/plan.md`): done for both judges (480 calls); `make stats-a` writes `results/tables/main_baseline_a.md`. **E5** (mitigations on a 60-item subset): bias-aware done for both judges (920 calls each) and majority vote done, `make stats-e5` writes `results/tables/main_e5.md`; translate-then-judge done for both judges (180 shared translations and 920 planned judgments per judge; Qwen has 9 final unparsed E3 judgments); the Hindi rubric not run yet. **Results so far:** `analysis/results_summary.md` (draft). **Paper draft and source audit:** `report/draft.md`, `report/citation_audit.md`; `python report/verify_snapshot.py` checks source hashes, raw Qwen metrics and deterministic E5 table reproduction without provider calls. **Re-audit package:** `make package`. **Pilot:** gpt-oss-120b and gemini-flash done (`make reproduce-pilot` writes `pilot_report.md`). **Reproduce:** `make reproduce` reruns every main-study call from the cache and rebuilds all tables. **E4** (human grading, 100 items in four forms, at least two annotators): blind sheets in `data/e4/` (`make e4-sheets`), guideline `data/e4/guideline.md`, `make e4-import ARGS=<sheet>` merges a graded sheet into `data/human_grades.csv`, `make stats-e4` writes `results/tables/main_baseline_e4.md`; see current grading status above. `make stats-e5` adds the human-agreement accuracy cost once two graders overlap. Items enter analysis only after human verification via the QC sheet.
 
 ## Setup
 
@@ -88,3 +98,13 @@ results/   raw/ (one line per call), cache/, tables/   tests/  schema, parsing, 
 - Pilot items: 15 factual MMMLU questions and 5 MT-Bench prompts; not representative of the final 150.
 - Model ids for free tiers change; confirm `configs/judges.yaml` before each run and record the date.
 - The Hindi rubric (E5a) is drafted by Claude and must be verified before use.
+
+## Working demo
+
+Install with `python -m pip install -e ".[app]"` in your virtual environment.
+Run `python demo/app.py` from this repository, or use `./Start-Demo.ps1` on Windows
+with a `.venv` environment. `make app` also starts it.
+Select demo mode, baseline, and dataset item `mmmlu-geo-0013`, then click Audit.
+Demo mode replays real cached responses without model calls; custom text usually has no cache hit.
+Live mode requires the configured provider credentials or local model server.
+See [the presentation guide](demo/DEMO_GUIDE.md).
