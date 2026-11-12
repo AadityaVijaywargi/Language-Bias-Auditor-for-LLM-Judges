@@ -11,3 +11,5 @@ dist/
 
 # Local demo runtime output
 demo/*.log
+
+!docs/deliverables/first-deliverable.pdf

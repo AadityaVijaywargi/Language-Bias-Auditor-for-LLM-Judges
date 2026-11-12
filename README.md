@@ -108,3 +108,7 @@ Select demo mode, baseline, and dataset item `mmmlu-geo-0013`, then click Audit.
 Demo mode replays real cached responses without model calls; custom text usually has no cache hit.
 Live mode requires the configured provider credentials or local model server.
 See [the presentation guide](demo/DEMO_GUIDE.md).
+
+## First deliverable
+
+[One-page solution overview (PDF)](docs/deliverables/first-deliverable.pdf) explains why the project is needed and what it delivers. [Read the Markdown version](docs/deliverables/first-deliverable.md).
